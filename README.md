@@ -42,7 +42,7 @@ In the `*_layers.json` files, `d46_0` is the run index of w036 minus that of w03
 
 ## Results
 
-At E1, E5, E6, X434, X542 and G2 no sheet lies between w034 and w036 at any of the 41 heights. E2 is the one place with a sheet between them. The ±30 µm shift changes the count at only 2 to 5 heights, all at X542.
+At E1, E5, E6, X434, X542 and G2 the count finds no sheet between w034 and w036 at any of the 41 heights. E2 is the one place with a sheet between them. The ±30 µm shift changes the count at only 2 to 5 heights, all at X542. At E1, E5 and E6 that zero means the bands are pressed together, not that a sheet is absent. An independent re-count of X542 and E2 (see "Independent check") confirms E2 and qualifies X542.
 
 | Place | z | Angle | Sheets between w034 and w036 | With ±30 µm shift | Can the bands be separated? |
 | --- | ---: | ---: | --- | --- | --- |
@@ -95,7 +95,8 @@ Crossings at dz 0: w033 9711, w034 9878, w033 end 9896, w034 end 9997, w036 1000
 
 - An air gap about 100 µm wide lies between w034's band (9811 to 9890 at dz 0) and w036's band (9993 to 10035). The profile drops to 22 there, against an Otsu threshold of 85.
 - w034 and w036 are on adjacent runs at 37 heights. At the other 4 (dz −200 to −170) w036 runs 76 to 84 µm into air below the lower end of its band and the nearest-run rule puts it on w034's band.
-- So w036 sits on the next band out from w034, with no sheet between. w036 is outside w034 at 41 of 41 heights.
+- So on this ray w036 sits on the next band out from w034, with no sheet between. w036 is outside w034 at 41 of 41 heights.
+- The independent check below found two things this count misses. A sheet enters the gap from just above the window: at dz +200 it is starting to cross between the two meshes, and half a degree lower in angle it lies between them from dz +110 up. Lower down, at dz −160 to −60, w034's band splits into two plies. So X542 does not show that a winding is missing here. The missing sheet could be the one entering the gap or one of the two plies, and only a 3D trace can tell.
 - w034's band is 80 to 110 µm wide and fibrous in the slices, so it could be two pressed plies.
 - w034's doubly traced end is on w036's band, one band out from w034's inner piece at 36 of 41 heights (same band at 5). w033's end runs along the outer face of w034's band; it is one band out from w033's inner piece at 30 of 41, two at 10, three at 1.
 
@@ -127,6 +128,18 @@ The control lies outside the w035 gap at the height of E2, with all five meshes 
 So where w035 is present, the 1.129 µm scan shows one sheet between w034 and w036, with each mesh on its sheet or up to about 25 µm beside it. Some sheets are pressed into one body even there. E2 has the same count. The other gap places do not.
 
 Figures: [radial cut](png/pilot/C240_radialcut.png), [profile](png/pilot/C240_profile.png), [slice](png/pilot/C240_slice.png), [single-line cut](png/pilot/look_C240_cut1.png). Table: [`results/pilot/C240_layers.json`](results/pilot/C240_layers.json).
+
+## Independent check
+
+A separate implementation re-counted X542 and E2. It shares no code with this repository: its own ray and triangle crossings, its own byte-range CT reader, the zarr's `transform.json` inverted (landmark residuals 0.3 to 1.95 voxels), and a different threshold rule, T = a + f(p − a) with a and p the 10th and 90th percentiles of the smoothed cut, at f = 0.5, 0.35, 0.2 and 0.1. It also starts each height's ray at the umbilicus at that height, so its crossings differ from the ones above by up to 11 µm at X542 and 47 µm at E2 away from dz 0. It downloaded 45,137,206 bytes. Its code is not included here.
+
+- E2: one sheet between w034 and w036 at 41 of 41 heights at f = 0.5, 36 of 41 at f = 0.35 (zeros at dz +100 to +140, where w034's band touches the middle band) and 30 of 41 at f = 0.2. Moving the meshes 42 µm out or the ray 0.5° raises the count at some heights. It never drops to zero everywhere, so the method can see the sheet that is there.
+- X542 on the nominal ray: no sheet between at 40 of 41 heights at f = 0.5 and at 41 of 41 at f = 0.35 and 0.2. Inside the gap the largest peak is 4.8 grey levels at f = 0.1, against air at about 28 and papyrus at about 143. Around dz 0 the gap is real air 85 to 93 µm wide.
+- X542 at the top: the gap narrows to 24 to 40 µm at dz +160 to +190 and 11 µm at dz +200. A small peak at r 9944 to 9956 rises with height (86 at dz +200, 92 at +204, 99 at +208), so a sheet is entering from just above the window. At −0.5° it lies between w034 and w036 at 9 heights, dz +110 to +200. At +0.5° the count stays 0 at 41.
+- X542 lower down: w034's band splits into two plies at dz −160 to −60, and w034 sits on the outer one. Moving the meshes 30 or 42 µm inward puts w034 on the inner ply, and the outer ply then counts as one sheet between, at 2 and 5 heights.
+- Its angle for X542 is 346.1619° against 346.1683° here, about 1 µm sideways at this radius. Counts agree with `results/places/X542_layers.json` except at three heights: dz −180 and −170 (same band here, adjacent there) and dz +200 (0 here, 1 there).
+
+Figures: [X542](png/verify/X542_verify.png), [X542 at ±0.5°](png/verify/X542_verify_angles.png), [X542 gap zoom](png/verify/X542_verify_slices_zoom.png), [E2](png/verify/E2_verify.png), [E2 at ±0.5°](png/verify/E2_verify_angles.png).
 
 ## What this cannot settle
 
