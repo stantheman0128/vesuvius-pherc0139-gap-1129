@@ -1,0 +1,14 @@
+w033: 220428 dense pts in covered gap envelope; L0 chunks 26819, L1 chunks 6761
+w034: 219984 dense pts in covered gap envelope; L0 chunks 27178, L1 chunks 6924
+w035: 19666 dense pts in covered gap envelope; L0 chunks 2810, L1 chunks 839
+w036: 180732 dense pts in covered gap envelope; L0 chunks 24317, L1 chunks 6526
+w037: 191181 dense pts in covered gap envelope; L0 chunks 25473, L1 chunks 6776
+union w033-w037 L0: 65620 chunks = 137.6 GB; dilated 1 chunk in x,y: 117156 = 245.7 GB
+union w033-w037 L1: 12021 chunks = 25.2 GB; dilated 1 chunk in x,y: 24855 = 52.1 GB
+E1: 1.129 L0 xyz (23206,21847,7341); chunks x176-186 y165-175 z55-59: 605 = 1.27 GB
+E2: 1.129 L0 xyz (26856,17209,14007); chunks x204-214 y129-139 z107-111: 605 = 1.27 GB
+E5: 1.129 L0 xyz (24873,19583,4964); chunks x189-199 y147-158 z37-40: 528 = 1.11 GB
+E6: 1.129 L0 xyz (24028,20738,5749); chunks x182-192 y156-167 z43-46: 528 = 1.11 GB
+ex w034 434,248: 1.129 L0 xyz (24209,21031,3044); chunks x183-194 y159-169 z22-25: 528 = 1.11 GB
+ex w036 542,1016: 1.129 L0 xyz (26545,14740,14933); chunks x202-212 y109-120 z114-118: 660 = 1.38 GB
+six places total 3454 chunks = 7.2 GB

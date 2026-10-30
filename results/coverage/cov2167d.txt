@@ -1,0 +1,6 @@
+catalog has 20260413113053->20250728140407: True
+catalog chain vs #1381, 1.129 grid points mapped to 9.362 frame, diff in um: median 20, max 42; z-diff median 14 max 37
+z_1.129=16: 2.399 z via #1381+catalog9->2.4 11407..11420; via catalog direct 11394..11434
+z_1.129=19296: 2.399 z via #1381+catalog9->2.4 20469..20482; via catalog direct 20458..20498
+catalog 9.362->1.129 isotropic scale 8.27496, nominal 9.362/1.129 = 8.29229, ratio 0.99791
+rotation about z (deg): -177.85

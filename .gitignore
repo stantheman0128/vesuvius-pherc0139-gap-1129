@@ -1,0 +1,5 @@
+# download cache and generated outputs (see README: PHERC0139_DATA, PHERC0139_OUT)
+data/
+out/
+*.npz
+__pycache__/

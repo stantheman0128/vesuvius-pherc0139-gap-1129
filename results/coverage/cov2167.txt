@@ -1,0 +1,66 @@
+catalog 1.129->2.399 matrix == volume transform.json: True
+max |inv(T_11_to_24) - catalog T_24_to_11| = 0.0
+landmark residuals (catalog matrix, 2.399 vox): [1.6 0.5 0.6 2.  1.3 0.7 0.3 0.8 1.  1.4 1.6 0.8]
+1.129 shape (z,y,x): [19297, 35971, 32318]
+1.129 volume corners in 2.399 frame: x 5725..20936  y 4643..21579  z 11387..20498
+  z_1.129=0: z_2.399 11387..11426
+  z_1.129=16: z_2.399 11394..11434
+  z_1.129=19296: z_2.399 20458..20498
+  z_1.129=19297: z_2.399 20459..20498
+L3 chunks present: 13659
+umbilicus at z 9000: (14807, 14063)
+umbilicus at z 11400: (14834, 14093)
+umbilicus at z 16000: (14405, 13192)
+umbilicus at z 20490: (14101, 12295)
+umbilicus at z 27800: (13082, 10914)
+
+Named places (2.399 xyz -> 1.129 xyz), angle recomputed, in box, in nonempty L3 chunk:
+  ex w034 434,248 gap                (17115, 14541, 12837) -> (24209,21031,3044)  ang  12.7  r 6.28 mm  box=True chunk=True
+  ex w036 542,1016 gap               (18213, 11594, 18432) -> (26545,14740,14933)  ang 346.2  r 10.00 mm  box=True chunk=True
+  ex w036 854,1110 gap(#2167 body)   (17834, 12866, 24543) -> (25748,17426,27937)  ang  21.2  r 11.72 mm  box=False chunk=False
+  ex w034 472,322 skip               (16038, 15479, 13682) -> (21921,23026,4847)  ang  51.4  r 5.54 mm  box=True chunk=True
+  ex w036 530,1102 skip              (18188, 13254, 18335) -> (26495,18272,14733)  ang   9.0  r 9.77 mm  box=True chunk=True
+  E1                                 (16642, 14927, 14856) -> (23206,21847,7341)  ang  35.2  r 6.31 mm  box=True chunk=True
+  E2                                 (18358, 12754, 17995) -> (26856,17209,14007)  ang 359.8  r 10.00 mm  box=True chunk=True
+  E4                                 (17611, 13846, 10437) -> (25261,19560,-2064)  ang 355.2  r 6.66 mm  box=False chunk=False
+  E5                                 (17427, 13862, 13741) -> (24873,19583,4964)  ang   4.2  r 6.81 mm  box=True chunk=True
+  E6                                 (17029, 14405, 14109) -> (24028,20738,5749)  ang  18.8  r 6.23 mm  box=True chunk=True
+  G1     z 11000: inside 1.129 z band? False
+  G2     z 19500: inside 1.129 z band? True
+  G3     z 23000: inside 1.129 z band? False
+  G4     z 26800: inside 1.129 z band? False
+  C1     z 13000: inside 1.129 z band? True
+  C2     z 22000: inside 1.129 z band? False
+  unwrap z 14856: inside 1.129 z band? True
+  unwrap z 19500: inside 1.129 z band? True
+
+Per-mesh check (9.362 um copies mapped to 20260102150214 with the catalog matrix):
+ w033: 117692 vertices; mapped bbox x 8716..18737 y 8497..17957 z 4294..30196 | 2.399 meta bbox x 8714..18744 y 8469..17973 z 4243..30250
+   envelope 327-85 deg: 32462 verts in z9000-27800; in 1.129 box 13881 (42.8%), in nonempty L3 chunk 13881 (42.8%); covered z 11412..20485, covered angle -33.0..85.0; radius 4.62-12.82 mm
+      within z 11420-20460: 13840 verts, covered 13840 (100.00%)
+      by z band: 9000-11000:0% 11000-13000:80% 13000-15000:100% 15000-17000:100% 17000-19000:100% 19000-21000:73% 21000-23000:0% 23000-25000:0% 25000-27000:0% 27000-29000:0%
+   core 5-71 deg: 15845 verts in z9000-27800; in 1.129 box 5480 (34.6%), in nonempty L3 chunk 5480 (34.6%); covered z 11412..20479, covered angle 5.0..71.0; radius 4.62-12.82 mm
+      within z 11420-20460: 5466 verts, covered 5466 (100.00%)
+ w034: 117276 vertices; mapped bbox x 8645..18760 y 8422..17986 z 4427..30189 | 2.399 meta bbox x 8644..18771 y 8384..17987 z 4379..30242
+   envelope 327-85 deg: 32275 verts in z9000-27800; in 1.129 box 13856 (42.9%), in nonempty L3 chunk 13856 (42.9%); covered z 11412..20485, covered angle -33.0..85.0; radius 4.71-12.98 mm
+      within z 11420-20460: 13809 verts, covered 13809 (100.00%)
+      by z band: 9000-11000:0% 11000-13000:80% 13000-15000:100% 15000-17000:100% 17000-19000:100% 19000-21000:74% 21000-23000:0% 23000-25000:0% 25000-27000:0% 27000-29000:0%
+   core 5-71 deg: 15897 verts in z9000-27800; in 1.129 box 5537 (34.8%), in nonempty L3 chunk 5537 (34.8%); covered z 11416..20477, covered angle 5.0..71.0; radius 4.71-12.98 mm
+      within z 11420-20460: 5515 verts, covered 5515 (100.00%)
+ w035: 63503 vertices; mapped bbox x 8573..18674 y 8628..17563 z 8570..28869 | 2.399 meta bbox x 8572..18695 y 8627..17565 z 8506..28933
+   envelope 327-85 deg: 6045 verts in z9000-27800; in 1.129 box 1360 (22.5%), in nonempty L3 chunk 1360 (22.5%); covered z 11552..20483, covered angle -33.0..85.0; radius 5.16-12.24 mm
+      within z 11420-20460: 1353 verts, covered 1353 (100.00%)
+      by z band: 9000-11000:0% 11000-13000:100% 13000-15000:100% 15000-17000:100% 17000-19000:100% 19000-21000:74% 21000-23000:0% 23000-25000:0% 25000-27000:0% 27000-29000:0%
+   core 5-71 deg: 52 verts in z9000-27800 (z 24692..26922); none in 1.129 scan
+ w036: 88088 vertices; mapped bbox x 8443..18768 y 8592..17632 z 8307..29096 | 2.399 meta bbox x 8442..18772 y 8589..17636 z 8239..29162
+   envelope 327-85 deg: 27163 verts in z9000-27800; in 1.129 box 11442 (42.1%), in nonempty L3 chunk 11442 (42.1%); covered z 11413..20481, covered angle -33.0..85.0; radius 4.73-12.77 mm
+      within z 11420-20460: 11406 verts, covered 11406 (100.00%)
+      by z band: 9000-11000:0% 11000-13000:80% 13000-15000:100% 15000-17000:100% 17000-19000:100% 19000-21000:73% 21000-23000:0% 23000-25000:0% 25000-27000:0% 27000-29000:0%
+   core 5-71 deg: 13419 verts in z9000-27800; in 1.129 box 5456 (40.7%), in nonempty L3 chunk 5456 (40.7%); covered z 11413..20477, covered angle 5.0..71.0; radius 4.73-12.77 mm
+      within z 11420-20460: 5435 verts, covered 5435 (100.00%)
+ w037: 93888 vertices; mapped bbox x 8393..18841 y 8506..17722 z 8002..29222 | 2.399 meta bbox x 8389..18848 y 8502..17733 z 7935..29284
+   envelope 327-85 deg: 28764 verts in z9000-27800; in 1.129 box 12097 (42.1%), in nonempty L3 chunk 12097 (42.1%); covered z 11413..20481, covered angle -33.0..85.0; radius 4.82-12.99 mm
+      within z 11420-20460: 12062 verts, covered 12062 (100.00%)
+      by z band: 9000-11000:0% 11000-13000:80% 13000-15000:100% 15000-17000:100% 17000-19000:100% 19000-21000:73% 21000-23000:0% 23000-25000:0% 25000-27000:0% 27000-29000:0%
+   core 5-71 deg: 13944 verts in z9000-27800; in 1.129 box 5669 (40.7%), in nonempty L3 chunk 5669 (40.7%); covered z 11413..20481, covered angle 5.0..71.0; radius 4.82-12.99 mm
+      within z 11420-20460: 5654 verts, covered 5654 (100.00%)

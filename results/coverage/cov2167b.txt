@@ -1,0 +1,15 @@
+L3 occupancy per z-chunk (of 36x32): [713, 716, 724, 723, 708, 707, 698, 709, 715, 710, 713, 711, 710, 717, 730, 736, 738, 741, 740]
+w034: covered gap vertices sit in 431 distinct L3 chunks; min xy distance to an empty chunk = 4 chunks (4.6 mm), median 6
+w036: covered gap vertices sit in 421 distinct L3 chunks; min xy distance to an empty chunk = 4 chunks (4.6 mm), median 6
+
+L5 chunk 1_5_5: nonzero voxels 100.0%, mean 85.6
+  w033: 772 vertices in chunk (2.399 z 13329..15255); voxel value >0 at 100.0%, median value 108
+  w034: 775 vertices in chunk (2.399 z 13332..15251); voxel value >0 at 100.0%, median value 106
+  w036: 799 vertices in chunk (2.399 z 13335..15254); voxel value >0 at 100.0%, median value 107
+  w037: 852 vertices in chunk (2.399 z 13331..15255); voxel value >0 at 100.0%, median value 103
+
+L5 chunk 3_4_6: nonzero voxels 99.8%, mean 76.1
+  w033: 956 vertices in chunk (2.399 z 17187..19110); voxel value >0 at 100.0%, median value 86
+  w034: 934 vertices in chunk (2.399 z 17186..19111); voxel value >0 at 100.0%, median value 88
+  w036: 718 vertices in chunk (2.399 z 17186..19108); voxel value >0 at 100.0%, median value 93
+  w037: 723 vertices in chunk (2.399 z 17187..19108); voxel value >0 at 100.0%, median value 102
