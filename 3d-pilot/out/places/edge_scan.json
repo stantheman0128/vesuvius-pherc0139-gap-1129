@@ -1,0 +1,170 @@
+{
+ "12400": {
+  "low_edge": {
+   "edge_deg": 328,
+   "control_as_planned": {
+    "seed_col": 1910,
+    "angle_min": 315.3,
+    "angle_max": 322.9,
+    "min_spacing_um": 0.5,
+    "p10_w034": 6.5,
+    "p10_w036": 52.3
+   },
+   "closest_surviving": {
+    "seed_col": 908,
+    "angle_min": 186.3,
+    "angle_max": 193.7,
+    "min_spacing_um": 23.2,
+    "p10_w034": 96.6,
+    "p10_w036": 187.2
+   },
+   "degrees_further_than_planned": 129.2
+  },
+  "high_edge": {
+   "edge_deg": 77,
+   "control_as_planned": {
+    "seed_col": 107,
+    "angle_min": 82.0,
+    "angle_max": 101.1,
+    "min_spacing_um": 0.9,
+    "p10_w034": 10.3,
+    "p10_w036": 83.7
+   },
+   "closest_surviving": {
+    "seed_col": 232,
+    "angle_min": 106.1,
+    "angle_max": 119.4,
+    "min_spacing_um": 22.6,
+    "p10_w034": 96.7,
+    "p10_w036": 86.7
+   },
+   "degrees_further_than_planned": 24.1
+  }
+ },
+ "14856": {
+  "low_edge": {
+   "edge_deg": 334,
+   "control_as_planned": {
+    "seed_col": 1941,
+    "angle_min": 321.0,
+    "angle_max": 328.9,
+    "min_spacing_um": 0.0,
+    "p10_w034": 4.9,
+    "p10_w036": 49.0
+   },
+   "closest_surviving": {
+    "seed_col": 1449,
+    "angle_min": 242.5,
+    "angle_max": 254.5,
+    "min_spacing_um": 21.7,
+    "p10_w034": 56.8,
+    "p10_w036": 65.3
+   },
+   "degrees_further_than_planned": 74.4
+  },
+  "high_edge": {
+   "edge_deg": 80,
+   "control_as_planned": {
+    "seed_col": 136,
+    "angle_min": 85.2,
+    "angle_max": 100.8,
+    "min_spacing_um": 27.1,
+    "p10_w034": 87.0,
+    "p10_w036": 76.2
+   },
+   "closest_surviving": {
+    "seed_col": 136,
+    "angle_min": 85.2,
+    "angle_max": 100.8,
+    "min_spacing_um": 27.1,
+    "p10_w034": 87.0,
+    "p10_w036": 76.2
+   },
+   "degrees_further_than_planned": 0.0
+  }
+ },
+ "17000": {
+  "low_edge": {
+   "edge_deg": 338,
+   "control_as_planned": {
+    "seed_col": 1955,
+    "angle_min": 322.8,
+    "angle_max": 332.9,
+    "min_spacing_um": 0.3,
+    "p10_w034": 9.6,
+    "p10_w036": 114.5
+   },
+   "closest_surviving": {
+    "seed_col": 1696,
+    "angle_min": 286.3,
+    "angle_max": 299.3,
+    "min_spacing_um": 21.3,
+    "p10_w034": 48.2,
+    "p10_w036": 67.1
+   },
+   "degrees_further_than_planned": 33.6
+  },
+  "high_edge": {
+   "edge_deg": 79,
+   "control_as_planned": {
+    "seed_col": 152,
+    "angle_min": 84.1,
+    "angle_max": 100.8,
+    "min_spacing_um": 1.2,
+    "p10_w034": 99.0,
+    "p10_w036": 60.1
+   },
+   "closest_surviving": {
+    "seed_col": 173,
+    "angle_min": 88.2,
+    "angle_max": 104.6,
+    "min_spacing_um": 23.5,
+    "p10_w034": 97.4,
+    "p10_w036": 85.1
+   },
+   "degrees_further_than_planned": 4.1
+  }
+ },
+ "19500": {
+  "low_edge": {
+   "edge_deg": 346,
+   "control_as_planned": {
+    "seed_col": 1991,
+    "angle_min": 331.7,
+    "angle_max": 341.0,
+    "min_spacing_um": 0.8,
+    "p10_w034": 5.7,
+    "p10_w036": 68.4
+   },
+   "closest_surviving": {
+    "seed_col": 1790,
+    "angle_min": 304.2,
+    "angle_max": 316.2,
+    "min_spacing_um": 21.2,
+    "p10_w034": 60.7,
+    "p10_w036": 58.0
+   },
+   "degrees_further_than_planned": 24.8
+  },
+  "high_edge": {
+   "edge_deg": 83,
+   "control_as_planned": {
+    "seed_col": 193,
+    "angle_min": 88.1,
+    "angle_max": 101.2,
+    "min_spacing_um": 0.9,
+    "p10_w034": 28.1,
+    "p10_w036": 78.6
+   },
+   "closest_surviving": {
+    "seed_col": 519,
+    "angle_min": 132.6,
+    "angle_max": 141.5,
+    "min_spacing_um": 24.1,
+    "p10_w034": 104.6,
+    "p10_w036": 85.1
+   },
+   "degrees_further_than_planned": 44.5
+  }
+ }
+}

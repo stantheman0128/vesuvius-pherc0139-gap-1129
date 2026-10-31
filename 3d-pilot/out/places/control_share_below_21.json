@@ -1,0 +1,122 @@
+{
+ "12400_window": {
+  "share_below_21um": 0.0,
+  "z24_of_those": null,
+  "z24_region": [
+   11649,
+   13187
+  ]
+ },
+ "12400_low_edge": {
+  "share_below_21um": 0.346,
+  "z24_of_those": [
+   11771,
+   13150
+  ],
+  "z24_region": [
+   11650,
+   13150
+  ]
+ },
+ "12400_high_edge": {
+  "share_below_21um": 0.221,
+  "z24_of_those": [
+   11596,
+   12376
+  ],
+  "z24_region": [
+   11593,
+   13140
+  ]
+ },
+ "14856_window": {
+  "share_below_21um": 0.055,
+  "z24_of_those": [
+   15224,
+   15430
+  ],
+  "z24_region": [
+   14097,
+   15654
+  ]
+ },
+ "14856_low_edge": {
+  "share_below_21um": 0.56,
+  "z24_of_those": [
+   14107,
+   15623
+  ],
+  "z24_region": [
+   14105,
+   15640
+  ]
+ },
+ "14856_high_edge": {
+  "share_below_21um": 0.0,
+  "z24_of_those": null,
+  "z24_region": [
+   14057,
+   15573
+  ]
+ },
+ "17000_window": {
+  "share_below_21um": 0.0,
+  "z24_of_those": null,
+  "z24_region": [
+   16298,
+   17829
+  ]
+ },
+ "17000_low_edge": {
+  "share_below_21um": 0.232,
+  "z24_of_those": [
+   16314,
+   17642
+  ],
+  "z24_region": [
+   16265,
+   17804
+  ]
+ },
+ "17000_high_edge": {
+  "share_below_21um": 0.039,
+  "z24_of_those": [
+   16478,
+   16810
+  ],
+  "z24_region": [
+   16250,
+   17675
+  ]
+ },
+ "19500_window": {
+  "share_below_21um": 0.0,
+  "z24_of_those": null,
+  "z24_region": [
+   18754,
+   20287
+  ]
+ },
+ "19500_low_edge": {
+  "share_below_21um": 0.495,
+  "z24_of_those": [
+   18770,
+   20291
+  ],
+  "z24_region": [
+   18770,
+   20291
+  ]
+ },
+ "19500_high_edge": {
+  "share_below_21um": 0.087,
+  "z24_of_those": [
+   19071,
+   20117
+  ],
+  "z24_region": [
+   18709,
+   20155
+  ]
+ }
+}

@@ -1,0 +1,508 @@
+{
+ "region": {
+  "place": "cal2_z14856_a245",
+  "trace_columns": [
+   11,
+   17
+  ],
+  "trace_rows": [
+   0,
+   2
+  ],
+  "normal_s_um": [
+   -130.0,
+   60.0
+  ],
+  "sample_step_um": 2.0,
+  "patch": {
+   "n_rows": 183,
+   "n_cols": 274,
+   "max_col_gap_um": 90.8,
+   "max_row_gap_um": 181.9
+  },
+  "n_patch_points": 50142,
+  "margin": "per point: voxel floor and floor + 1 (trilinear), plus 0.5 voxel (possible centre/corner offset between levels) and half the sampling step",
+  "key_convention": "(z, y, x) = floor(level-0 xyz / 2**L / 128), as cal2_look.CT and fetch_ct.py"
+ },
+ "source": {
+  "volume": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/volumes/20260413113053-1.129um-0.2m-59keV-masked.zarr",
+  "zarray": "cached downloads/meta/zarr/<L>.zarray (not re-fetched)",
+  "method": "HTTP HEAD per chunk (Content-Length); no chunk body read; nothing added to logs/fetch_log.jsonl",
+  "head_requests": 62
+ },
+ "ledger": {
+  "cap_bytes": 1500000000,
+  "fetched_bytes": 1444169305,
+  "left_bytes": 55830695
+ },
+ "levels": {
+  "0": {
+   "voxel_um": 1.129,
+   "chunk_shape": [
+    128,
+    128,
+    128
+   ],
+   "dtype": "|u1",
+   "compressor": null,
+   "bytes_per_chunk_from_zarray": 2097152,
+   "n_chunks": 48,
+   "region_bbox_voxels_xyz": [
+    [
+     15149,
+     12449,
+     6723
+    ],
+    [
+     15514,
+     12781,
+     7260
+    ]
+   ],
+   "level3_parents_all_in_cal2_box": true,
+   "fetch_ct_outside_gap_all": true,
+   "sheet_separation_voxels": [
+    23.9,
+    38.1
+   ],
+   "present_200": 48,
+   "missing_403_404": [],
+   "errors": [],
+   "content_length_values": [
+    2097152
+   ],
+   "total_bytes": 100663296,
+   "already_on_disk": 0,
+   "bytes_to_fetch": 100663296,
+   "fits_in_ledger_left": false,
+   "keys_zyx": [
+    [
+     52,
+     97,
+     118
+    ],
+    [
+     52,
+     97,
+     119
+    ],
+    [
+     52,
+     97,
+     120
+    ],
+    [
+     52,
+     97,
+     121
+    ],
+    [
+     52,
+     98,
+     118
+    ],
+    [
+     52,
+     98,
+     119
+    ],
+    [
+     52,
+     98,
+     120
+    ],
+    [
+     52,
+     98,
+     121
+    ],
+    [
+     53,
+     97,
+     118
+    ],
+    [
+     53,
+     97,
+     119
+    ],
+    [
+     53,
+     97,
+     120
+    ],
+    [
+     53,
+     97,
+     121
+    ],
+    [
+     53,
+     98,
+     118
+    ],
+    [
+     53,
+     98,
+     119
+    ],
+    [
+     53,
+     98,
+     120
+    ],
+    [
+     53,
+     98,
+     121
+    ],
+    [
+     53,
+     99,
+     118
+    ],
+    [
+     54,
+     97,
+     118
+    ],
+    [
+     54,
+     97,
+     119
+    ],
+    [
+     54,
+     97,
+     120
+    ],
+    [
+     54,
+     97,
+     121
+    ],
+    [
+     54,
+     98,
+     118
+    ],
+    [
+     54,
+     98,
+     119
+    ],
+    [
+     54,
+     98,
+     120
+    ],
+    [
+     54,
+     98,
+     121
+    ],
+    [
+     54,
+     99,
+     118
+    ],
+    [
+     54,
+     99,
+     119
+    ],
+    [
+     54,
+     99,
+     120
+    ],
+    [
+     54,
+     99,
+     121
+    ],
+    [
+     55,
+     97,
+     118
+    ],
+    [
+     55,
+     97,
+     119
+    ],
+    [
+     55,
+     97,
+     120
+    ],
+    [
+     55,
+     97,
+     121
+    ],
+    [
+     55,
+     98,
+     118
+    ],
+    [
+     55,
+     98,
+     119
+    ],
+    [
+     55,
+     98,
+     120
+    ],
+    [
+     55,
+     98,
+     121
+    ],
+    [
+     55,
+     99,
+     118
+    ],
+    [
+     55,
+     99,
+     119
+    ],
+    [
+     55,
+     99,
+     120
+    ],
+    [
+     55,
+     99,
+     121
+    ],
+    [
+     56,
+     98,
+     118
+    ],
+    [
+     56,
+     98,
+     119
+    ],
+    [
+     56,
+     98,
+     120
+    ],
+    [
+     56,
+     99,
+     118
+    ],
+    [
+     56,
+     99,
+     119
+    ],
+    [
+     56,
+     99,
+     120
+    ],
+    [
+     56,
+     99,
+     121
+    ]
+   ]
+  },
+  "1": {
+   "voxel_um": 2.258,
+   "chunk_shape": [
+    128,
+    128,
+    128
+   ],
+   "dtype": "|u1",
+   "compressor": null,
+   "bytes_per_chunk_from_zarray": 2097152,
+   "n_chunks": 10,
+   "region_bbox_voxels_xyz": [
+    [
+     7574,
+     6224,
+     3361
+    ],
+    [
+     7758,
+     6391,
+     3631
+    ]
+   ],
+   "level3_parents_all_in_cal2_box": true,
+   "fetch_ct_outside_gap_all": true,
+   "sheet_separation_voxels": [
+    12.0,
+    19.0
+   ],
+   "present_200": 10,
+   "missing_403_404": [],
+   "errors": [],
+   "content_length_values": [
+    2097152
+   ],
+   "total_bytes": 20971520,
+   "already_on_disk": 0,
+   "bytes_to_fetch": 20971520,
+   "fits_in_ledger_left": true,
+   "keys_zyx": [
+    [
+     26,
+     48,
+     59
+    ],
+    [
+     26,
+     48,
+     60
+    ],
+    [
+     26,
+     49,
+     59
+    ],
+    [
+     26,
+     49,
+     60
+    ],
+    [
+     27,
+     48,
+     59
+    ],
+    [
+     27,
+     48,
+     60
+    ],
+    [
+     27,
+     49,
+     59
+    ],
+    [
+     27,
+     49,
+     60
+    ],
+    [
+     28,
+     49,
+     59
+    ],
+    [
+     28,
+     49,
+     60
+    ]
+   ]
+  },
+  "2": {
+   "voxel_um": 4.516,
+   "chunk_shape": [
+    128,
+    128,
+    128
+   ],
+   "dtype": "|u1",
+   "compressor": null,
+   "bytes_per_chunk_from_zarray": 2097152,
+   "n_chunks": 4,
+   "region_bbox_voxels_xyz": [
+    [
+     3787,
+     3112,
+     1680
+    ],
+    [
+     3880,
+     3197,
+     1816
+    ]
+   ],
+   "level3_parents_all_in_cal2_box": true,
+   "fetch_ct_outside_gap_all": true,
+   "sheet_separation_voxels": [
+    6.0,
+    9.5
+   ],
+   "present_200": 4,
+   "missing_403_404": [],
+   "errors": [],
+   "content_length_values": [
+    2097152
+   ],
+   "total_bytes": 8388608,
+   "already_on_disk": 0,
+   "bytes_to_fetch": 8388608,
+   "fits_in_ledger_left": true,
+   "keys_zyx": [
+    [
+     13,
+     24,
+     29
+    ],
+    [
+     13,
+     24,
+     30
+    ],
+    [
+     14,
+     24,
+     29
+    ],
+    [
+     14,
+     24,
+     30
+    ]
+   ]
+  },
+  "3": {
+   "voxel_um": 9.032,
+   "chunk_shape": [
+    128,
+    128,
+    128
+   ],
+   "dtype": "|u1",
+   "compressor": null,
+   "bytes_per_chunk_from_zarray": 2097152,
+   "n_chunks": 4,
+   "region_bbox_voxels_xyz": [
+    [
+     1893,
+     1555,
+     840
+    ],
+    [
+     1941,
+     1599,
+     909
+    ]
+   ],
+   "level3_parents_all_in_cal2_box": true,
+   "fetch_ct_outside_gap_all": true,
+   "sheet_separation_voxels": [
+    3.0,
+    4.8
+   ],
+   "note": "reference only: cal2's level-3 chunks are already on disk",
+   "already_on_disk": 4
+  }
+ }
+}

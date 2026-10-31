@@ -3,3 +3,5 @@ data/
 out/
 *.npz
 __pycache__/
+# the 3D pilot's outputs are published (3d-pilot/README.md, Files)
+!3d-pilot/out/

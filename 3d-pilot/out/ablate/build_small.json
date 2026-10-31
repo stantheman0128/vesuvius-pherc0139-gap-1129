@@ -1,0 +1,34 @@
+{
+ "copy_shift_p2": {
+  "d_level2_vox": -2,
+  "t_zyx_level2": [
+   0,
+   -2,
+   0
+  ],
+  "t_um_xyz": [
+   0.0,
+   -9.03,
+   0.0
+  ],
+  "t_dot_n_mean_um": 8.57,
+  "readback_equal": true,
+  "crop_avoids_fill": true
+ },
+ "copy_shift_m2": {
+  "d_level2_vox": 2,
+  "t_zyx_level2": [
+   0,
+   2,
+   0
+  ],
+  "t_um_xyz": [
+   0.0,
+   9.03,
+   0.0
+  ],
+  "t_dot_n_mean_um": -8.57,
+  "readback_equal": true,
+  "crop_avoids_fill": true
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "n_mean_xyz_outward": [
+  -0.0781,
+  -0.9489,
+  -0.3057
+ ],
+ "axis_xyz": "y",
+ "axis_zyx_index": 1,
+ "outward_sign_on_axis": -1,
+ "angle_normal_to_axis_deg": 18.4,
+ "copy_l2": {
+  "crop_zyx_min": [
+   3438,
+   2510,
+   3500
+  ],
+  "crop_zyx_max": [
+   3566,
+   2894,
+   3884
+  ],
+  "median": 46,
+  "box_chunks": 32
+ },
+ "copy_shift_p": {
+  "d_level2_vox": -7,
+  "t_zyx_level2": [
+   0,
+   -7,
+   0
+  ],
+  "t_um_xyz": [
+   0.0,
+   -31.61,
+   0.0
+  ],
+  "t_dot_n_mean_um": 30.0,
+  "t_dot_n_per_vertex_mean_um": 29.81,
+  "check": {
+   "region": "copy crop",
+   "rel_lo": [
+    110,
+    78,
+    44
+   ],
+   "rel_hi": [
+    238,
+    462,
+    428
+   ],
+   "fill_strip_on_axis": [
+    505,
+    512
+   ],
+   "avoids_fill_and_inside_box": true
+  },
+  "readback_equal": true,
+  "readback_differs_from_unshifted": true
+ },
+ "copy_shift_m": {
+  "d_level2_vox": 7,
+  "t_zyx_level2": [
+   0,
+   7,
+   0
+  ],
+  "t_um_xyz": [
+   0.0,
+   31.61,
+   0.0
+  ],
+  "t_dot_n_mean_um": -30.0,
+  "t_dot_n_per_vertex_mean_um": -29.81,
+  "check": {
+   "region": "copy crop",
+   "rel_lo": [
+    110,
+    78,
+    44
+   ],
+   "rel_hi": [
+    238,
+    462,
+    428
+   ],
+   "fill_strip_on_axis": [
+    0,
+    7
+   ],
+   "avoids_fill_and_inside_box": true
+  },
+  "readback_equal": true,
+  "readback_differs_from_unshifted": true
+ },
+ "copy_const_readback_unique": [
+  46
+ ],
+ "sheet_l3": {
+  "read_zyx_lo": [
+   1602,
+   1265,
+   1530
+  ],
+  "read_zyx_hi": [
+   1917,
+   1454,
+   2033
+  ],
+  "median": 58,
+  "box_chunks": 45
+ },
+ "sheet_shift_p": {
+  "d_level3_vox": -3,
+  "t_um_xyz": [
+   0.0,
+   -27.1,
+   0.0
+  ],
+  "t_dot_n_mean_um": 25.71,
+  "check": {
+   "region": "sheet plan read box",
+   "rel_lo": [
+    66,
+    113,
+    122
+   ],
+   "rel_hi": [
+    381,
+    302,
+    625
+   ],
+   "fill_strip_on_axis": [
+    381,
+    384
+   ],
+   "avoids_fill_and_inside_box": true
+  }
+ },
+ "sheet_shift_m": {
+  "d_level3_vox": 3,
+  "t_um_xyz": [
+   0.0,
+   27.1,
+   0.0
+  ],
+  "t_dot_n_mean_um": -25.71,
+  "check": {
+   "region": "sheet plan read box",
+   "rel_lo": [
+    66,
+    113,
+    122
+   ],
+   "rel_hi": [
+    381,
+    302,
+    625
+   ],
+   "fill_strip_on_axis": [
+    0,
+    3
+   ],
+   "avoids_fill_and_inside_box": true
+  }
+ }
+}

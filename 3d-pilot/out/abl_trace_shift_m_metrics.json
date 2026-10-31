@@ -1,0 +1,78 @@
+{
+ "tag": "abl_trace_shift_m",
+ "shape_rows_cols": [
+  3,
+  37
+ ],
+ "kept_points": 111,
+ "of": 111,
+ "kept_after_seed_row": 74,
+ "of_after_seed_row": 74,
+ "median_to_um": {
+  "w034": 135.0,
+  "w035": 5.0,
+  "w036": 65.3
+ },
+ "p90_to_um": {
+  "w034": 172.8,
+  "w035": 22.1,
+  "w036": 92.4
+ },
+ "nearest_counts": {
+  "w034": 0,
+  "w035": 111,
+  "w036": 0
+ },
+ "conf_mean_by_row": [
+  1.0,
+  0.784,
+  0.406
+ ],
+ "rows": [
+  {
+   "row": 0,
+   "kept": 37,
+   "of": 37,
+   "z_l0_median": 13410.6,
+   "med_to_w034_um": 135.0,
+   "med_to_w035_um": 2.2,
+   "med_to_w036_um": 58.6,
+   "max_to_w035_um": 9.8,
+   "nearest": {
+    "w034": 0,
+    "w035": 37,
+    "w036": 0
+   }
+  },
+  {
+   "row": 1,
+   "kept": 37,
+   "of": 37,
+   "z_l0_median": 13559.3,
+   "med_to_w034_um": 141.7,
+   "med_to_w035_um": 15.4,
+   "med_to_w036_um": 58.1,
+   "max_to_w035_um": 30.8,
+   "nearest": {
+    "w034": 0,
+    "w035": 37,
+    "w036": 0
+   }
+  },
+  {
+   "row": 2,
+   "kept": 37,
+   "of": 37,
+   "z_l0_median": 13715.7,
+   "med_to_w034_um": 130.8,
+   "med_to_w035_um": 7.8,
+   "med_to_w036_um": 72.7,
+   "max_to_w035_um": 28.4,
+   "nearest": {
+    "w034": 0,
+    "w035": 37,
+    "w036": 0
+   }
+  }
+ ]
+}

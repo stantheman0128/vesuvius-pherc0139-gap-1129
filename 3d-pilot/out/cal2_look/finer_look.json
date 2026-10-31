@@ -1,0 +1,1066 @@
+{
+ "rule_file": "out/cal2_look/FINER-RULE.md",
+ "rule_sha256": "c7d471962f91e3f6e36e42a18ba1bf3efe3760f874ba55c13f58a23b0b2feea8",
+ "levels": {
+  "1": {
+   "noise": {
+    "sigma_vox_x": 1.05,
+    "sigma_vox_z": 2.1,
+    "sigma_half": 1.25,
+    "sigma_white": 0.52,
+    "sigma_prof": 1.25,
+    "k": 4,
+    "cut_main": 5.32
+   },
+   "cut": 5.32,
+   "columns": {
+    "11": {
+     "row0": {
+      "s34": -26.8,
+      "s35": 2.6,
+      "checked": true,
+      "ridges_s_um": [
+       -29.0
+      ],
+      "prominences": [
+       88.8
+      ]
+     },
+     "row1": {
+      "s34": -33.0,
+      "s35": 11.1,
+      "checked": true,
+      "ridges_s_um": [
+       -15.0,
+       41.0
+      ],
+      "prominences": [
+       93.6,
+       44.9
+      ]
+     },
+     "row2": {
+      "s34": -45.6,
+      "s35": 21.5,
+      "checked": true,
+      "ridges_s_um": [
+       -63.0,
+       21.0
+      ],
+      "prominences": [
+       82.6,
+       21.6
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-29.0]"
+    },
+    "12": {
+     "row0": {
+      "s34": -29.1,
+      "s35": 0.0,
+      "checked": true,
+      "ridges_s_um": [
+       -14.0
+      ],
+      "prominences": [
+       97.6
+      ]
+     },
+     "row1": {
+      "s34": -35.5,
+      "s35": 6.9,
+      "checked": true,
+      "ridges_s_um": [
+       7.0
+      ],
+      "prominences": [
+       85.9
+      ]
+     },
+     "row2": {
+      "s34": -42.7,
+      "s35": 16.2,
+      "checked": true,
+      "ridges_s_um": [
+       -65.0,
+       -20.0,
+       6.0,
+       36.0,
+       51.0
+      ],
+      "prominences": [
+       53.6,
+       38.9,
+       9.2,
+       17.2,
+       6.6
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -14.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "13": {
+     "row0": {
+      "s34": -29.1,
+      "s35": -0.7,
+      "checked": true,
+      "ridges_s_um": [
+       13.0
+      ],
+      "prominences": [
+       114.8
+      ]
+     },
+     "row1": {
+      "s34": -34.0,
+      "s35": 1.9,
+      "checked": true,
+      "ridges_s_um": [
+       -96.0,
+       -24.0,
+       9.0
+      ],
+      "prominences": [
+       5.5,
+       9.9,
+       75.7
+      ]
+     },
+     "row2": {
+      "s34": -35.6,
+      "s35": 12.5,
+      "checked": true,
+      "ridges_s_um": [
+       -36.0,
+       1.0
+      ],
+      "prominences": [
+       57.5,
+       7.6
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 13.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "14": {
+     "row0": {
+      "s34": -28.2,
+      "s35": 4.0,
+      "checked": true,
+      "ridges_s_um": [
+       5.0
+      ],
+      "prominences": [
+       120.3
+      ]
+     },
+     "row1": {
+      "s34": -33.4,
+      "s35": 0.8,
+      "checked": true,
+      "ridges_s_um": [
+       -104.0,
+       0.0
+      ],
+      "prominences": [
+       10.2,
+       116.2
+      ]
+     },
+     "row2": {
+      "s34": -33.9,
+      "s35": 12.4,
+      "checked": true,
+      "ridges_s_um": [
+       -8.0
+      ],
+      "prominences": [
+       92.2
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 5.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "15": {
+     "row0": {
+      "s34": -27.4,
+      "s35": 7.4,
+      "checked": true,
+      "ridges_s_um": [
+       5.0,
+       31.0
+      ],
+      "prominences": [
+       65.0,
+       24.6
+      ]
+     },
+     "row1": {
+      "s34": -32.0,
+      "s35": 2.1,
+      "checked": true,
+      "ridges_s_um": [
+       -88.0,
+       -26.0,
+       5.0
+      ],
+      "prominences": [
+       7.9,
+       7.5,
+       100.0
+      ]
+     },
+     "row2": {
+      "s34": -31.5,
+      "s35": 13.2,
+      "checked": true,
+      "ridges_s_um": [
+       -21.0,
+       17.0
+      ],
+      "prominences": [
+       98.0,
+       14.9
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 5.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "16": {
+     "row0": {
+      "s34": -31.4,
+      "s35": 7.6,
+      "checked": true,
+      "ridges_s_um": [
+       -15.0
+      ],
+      "prominences": [
+       111.4
+      ]
+     },
+     "row1": {
+      "s34": -37.2,
+      "s35": 4.9,
+      "checked": true,
+      "ridges_s_um": [
+       -24.0,
+       1.0
+      ],
+      "prominences": [
+       116.0,
+       7.1
+      ]
+     },
+     "row2": {
+      "s34": -33.5,
+      "s35": 15.4,
+      "checked": true,
+      "ridges_s_um": [
+       -41.0,
+       15.0,
+       52.0
+      ],
+      "prominences": [
+       111.5,
+       24.1,
+       7.7
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-15.0]"
+    },
+    "17": {
+     "row0": {
+      "s34": -42.7,
+      "s35": 6.3,
+      "checked": true,
+      "ridges_s_um": [
+       -24.0,
+       33.0
+      ],
+      "prominences": [
+       113.6,
+       20.7
+      ]
+     },
+     "row1": {
+      "s34": -46.4,
+      "s35": 8.2,
+      "checked": true,
+      "ridges_s_um": [
+       -36.0,
+       23.0
+      ],
+      "prominences": [
+       107.2,
+       34.8
+      ]
+     },
+     "row2": {
+      "s34": -38.0,
+      "s35": 18.4,
+      "checked": true,
+      "ridges_s_um": [
+       -45.0,
+       -11.0
+      ],
+      "prominences": [
+       93.7,
+       15.4
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-24.0]"
+    }
+   },
+   "calls": {
+    "main": {
+     "verdict": "undecided",
+     "counts": {
+      "A-like": 0,
+      "B-like": 4,
+      "other": 3
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other",
+      "other"
+     ],
+     "cut": 5.32
+    },
+    "2x_cut": {
+     "verdict": "undecided",
+     "counts": {
+      "A-like": 0,
+      "B-like": 4,
+      "other": 3
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other",
+      "other"
+     ],
+     "cut": 10.64
+    }
+   }
+  },
+  "2": {
+   "noise": {
+    "sigma_vox_x": 2.1,
+    "sigma_vox_z": 3.15,
+    "sigma_half": 1.13,
+    "sigma_white": 1.57,
+    "sigma_prof": 1.57,
+    "k": 2,
+    "cut_main": 6.67
+   },
+   "cut": 6.67,
+   "columns": {
+    "11": {
+     "row0": {
+      "s34": -26.8,
+      "s35": 2.6,
+      "checked": true,
+      "ridges_s_um": [
+       -27.0
+      ],
+      "prominences": [
+       86.9
+      ]
+     },
+     "row1": {
+      "s34": -33.0,
+      "s35": 11.1,
+      "checked": true,
+      "ridges_s_um": [
+       -15.0,
+       41.0
+      ],
+      "prominences": [
+       89.0,
+       42.1
+      ]
+     },
+     "row2": {
+      "s34": -45.6,
+      "s35": 21.5,
+      "checked": true,
+      "ridges_s_um": [
+       -61.0,
+       23.0
+      ],
+      "prominences": [
+       80.7,
+       18.4
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-27.0]"
+    },
+    "12": {
+     "row0": {
+      "s34": -29.1,
+      "s35": 0.0,
+      "checked": true,
+      "ridges_s_um": [
+       -7.0
+      ],
+      "prominences": [
+       96.2
+      ]
+     },
+     "row1": {
+      "s34": -35.5,
+      "s35": 6.9,
+      "checked": true,
+      "ridges_s_um": [
+       7.0
+      ],
+      "prominences": [
+       83.6
+      ]
+     },
+     "row2": {
+      "s34": -42.7,
+      "s35": 16.2,
+      "checked": true,
+      "ridges_s_um": [
+       -64.0,
+       -18.0,
+       53.0
+      ],
+      "prominences": [
+       51.2,
+       38.7,
+       15.6
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -7.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "13": {
+     "row0": {
+      "s34": -29.1,
+      "s35": -0.7,
+      "checked": true,
+      "ridges_s_um": [
+       13.0
+      ],
+      "prominences": [
+       113.7
+      ]
+     },
+     "row1": {
+      "s34": -34.0,
+      "s35": 1.9,
+      "checked": true,
+      "ridges_s_um": [
+       5.0
+      ],
+      "prominences": [
+       73.1
+      ]
+     },
+     "row2": {
+      "s34": -35.6,
+      "s35": 12.5,
+      "checked": true,
+      "ridges_s_um": [
+       -34.0,
+       0.0
+      ],
+      "prominences": [
+       57.9,
+       7.0
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 13.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "14": {
+     "row0": {
+      "s34": -28.2,
+      "s35": 4.0,
+      "checked": true,
+      "ridges_s_um": [
+       6.0
+      ],
+      "prominences": [
+       119.2
+      ]
+     },
+     "row1": {
+      "s34": -33.4,
+      "s35": 0.8,
+      "checked": true,
+      "ridges_s_um": [
+       -104.0,
+       1.0
+      ],
+      "prominences": [
+       8.9,
+       115.5
+      ]
+     },
+     "row2": {
+      "s34": -33.9,
+      "s35": 12.4,
+      "checked": true,
+      "ridges_s_um": [
+       -7.0
+      ],
+      "prominences": [
+       92.3
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 6.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "15": {
+     "row0": {
+      "s34": -27.4,
+      "s35": 7.4,
+      "checked": true,
+      "ridges_s_um": [
+       6.0,
+       31.0
+      ],
+      "prominences": [
+       64.0,
+       18.7
+      ]
+     },
+     "row1": {
+      "s34": -32.0,
+      "s35": 2.1,
+      "checked": true,
+      "ridges_s_um": [
+       -86.0,
+       6.0
+      ],
+      "prominences": [
+       7.7,
+       97.6
+      ]
+     },
+     "row2": {
+      "s34": -31.5,
+      "s35": 13.2,
+      "checked": true,
+      "ridges_s_um": [
+       -20.0,
+       17.0
+      ],
+      "prominences": [
+       98.3,
+       12.4
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 6.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "16": {
+     "row0": {
+      "s34": -31.4,
+      "s35": 7.6,
+      "checked": true,
+      "ridges_s_um": [
+       -11.0
+      ],
+      "prominences": [
+       108.8
+      ]
+     },
+     "row1": {
+      "s34": -37.2,
+      "s35": 4.9,
+      "checked": true,
+      "ridges_s_um": [
+       -24.0
+      ],
+      "prominences": [
+       118.3
+      ]
+     },
+     "row2": {
+      "s34": -33.5,
+      "s35": 15.4,
+      "checked": true,
+      "ridges_s_um": [
+       -40.0,
+       15.0
+      ],
+      "prominences": [
+       110.0,
+       20.4
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -11.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "17": {
+     "row0": {
+      "s34": -42.7,
+      "s35": 6.3,
+      "checked": true,
+      "ridges_s_um": [
+       -22.0,
+       33.0
+      ],
+      "prominences": [
+       112.4,
+       17.2
+      ]
+     },
+     "row1": {
+      "s34": -46.4,
+      "s35": 8.2,
+      "checked": true,
+      "ridges_s_um": [
+       -35.0,
+       24.0
+      ],
+      "prominences": [
+       105.6,
+       30.8
+      ]
+     },
+     "row2": {
+      "s34": -38.0,
+      "s35": 18.4,
+      "checked": true,
+      "ridges_s_um": [
+       -44.0,
+       -10.0
+      ],
+      "prominences": [
+       90.9,
+       11.6
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-22.0]"
+    }
+   },
+   "calls": {
+    "main": {
+     "verdict": "B",
+     "counts": {
+      "A-like": 0,
+      "B-like": 5,
+      "other": 2
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other"
+     ],
+     "cut": 6.67
+    }
+   }
+  },
+  "3": {
+   "noise": {
+    "sigma_prof": 4.19,
+    "source": "cal2_look.py (profiles.json noise)",
+    "cut_main": 17.79
+   },
+   "cut": 17.79,
+   "columns": {
+    "11": {
+     "row0": {
+      "s34": -26.8,
+      "s35": 2.6,
+      "checked": true,
+      "ridges_s_um": [
+       -21.0
+      ],
+      "prominences": [
+       84.2
+      ]
+     },
+     "row1": {
+      "s34": -33.0,
+      "s35": 11.1,
+      "checked": true,
+      "ridges_s_um": [
+       -16.0,
+       49.0
+      ],
+      "prominences": [
+       76.5,
+       31.3
+      ]
+     },
+     "row2": {
+      "s34": -45.6,
+      "s35": 21.5,
+      "checked": true,
+      "ridges_s_um": [
+       -61.0
+      ],
+      "prominences": [
+       76.0
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-21.0]"
+    },
+    "12": {
+     "row0": {
+      "s34": -29.1,
+      "s35": 0.0,
+      "checked": true,
+      "ridges_s_um": [
+       -6.0
+      ],
+      "prominences": [
+       94.4
+      ]
+     },
+     "row1": {
+      "s34": -35.5,
+      "s35": 6.9,
+      "checked": true,
+      "ridges_s_um": [
+       11.0
+      ],
+      "prominences": [
+       75.1
+      ]
+     },
+     "row2": {
+      "s34": -42.7,
+      "s35": 16.2,
+      "checked": true,
+      "ridges_s_um": [
+       -64.0,
+       -17.0
+      ],
+      "prominences": [
+       45.2,
+       38.5
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -6.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "13": {
+     "row0": {
+      "s34": -29.1,
+      "s35": -0.7,
+      "checked": true,
+      "ridges_s_um": [
+       12.0
+      ],
+      "prominences": [
+       108.3
+      ]
+     },
+     "row1": {
+      "s34": -34.0,
+      "s35": 1.9,
+      "checked": true,
+      "ridges_s_um": [
+       6.0
+      ],
+      "prominences": [
+       67.5
+      ]
+     },
+     "row2": {
+      "s34": -35.6,
+      "s35": 12.5,
+      "checked": true,
+      "ridges_s_um": [
+       -33.0
+      ],
+      "prominences": [
+       56.0
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 12.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "14": {
+     "row0": {
+      "s34": -28.2,
+      "s35": 4.0,
+      "checked": true,
+      "ridges_s_um": [
+       10.0
+      ],
+      "prominences": [
+       116.2
+      ]
+     },
+     "row1": {
+      "s34": -33.4,
+      "s35": 0.8,
+      "checked": true,
+      "ridges_s_um": [
+       0.0
+      ],
+      "prominences": [
+       111.3
+      ]
+     },
+     "row2": {
+      "s34": -33.9,
+      "s35": 12.4,
+      "checked": true,
+      "ridges_s_um": [
+       -15.0
+      ],
+      "prominences": [
+       88.8
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 10.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "15": {
+     "row0": {
+      "s34": -27.4,
+      "s35": 7.4,
+      "checked": true,
+      "ridges_s_um": [
+       11.0
+      ],
+      "prominences": [
+       62.0
+      ]
+     },
+     "row1": {
+      "s34": -32.0,
+      "s35": 2.1,
+      "checked": true,
+      "ridges_s_um": [
+       6.0
+      ],
+      "prominences": [
+       90.5
+      ]
+     },
+     "row2": {
+      "s34": -31.5,
+      "s35": 13.2,
+      "checked": true,
+      "ridges_s_um": [
+       -22.0
+      ],
+      "prominences": [
+       92.4
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 11.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "16": {
+     "row0": {
+      "s34": -31.4,
+      "s35": 7.6,
+      "checked": true,
+      "ridges_s_um": [
+       -7.0
+      ],
+      "prominences": [
+       100.1
+      ]
+     },
+     "row1": {
+      "s34": -37.2,
+      "s35": 4.9,
+      "checked": true,
+      "ridges_s_um": [
+       -23.0
+      ],
+      "prominences": [
+       111.6
+      ]
+     },
+     "row2": {
+      "s34": -33.5,
+      "s35": 15.4,
+      "checked": true,
+      "ridges_s_um": [
+       -38.0
+      ],
+      "prominences": [
+       101.5
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -7.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "17": {
+     "row0": {
+      "s34": -42.7,
+      "s35": 6.3,
+      "checked": true,
+      "ridges_s_um": [
+       -20.0
+      ],
+      "prominences": [
+       104.6
+      ]
+     },
+     "row1": {
+      "s34": -46.4,
+      "s35": 8.2,
+      "checked": true,
+      "ridges_s_um": [
+       -31.0,
+       28.0
+      ],
+      "prominences": [
+       100.9,
+       22.5
+      ]
+     },
+     "row2": {
+      "s34": -38.0,
+      "s35": 18.4,
+      "checked": true,
+      "ridges_s_um": [
+       -44.0
+      ],
+      "prominences": [
+       78.7
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-20.0]"
+    }
+   },
+   "calls": {
+    "main": {
+     "verdict": "B",
+     "counts": {
+      "A-like": 0,
+      "B-like": 5,
+      "other": 2
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other"
+     ],
+     "cut": 17.79
+    }
+   }
+  }
+ },
+ "decision": {
+  "level": 1,
+  "verdict": "undecided",
+  "counts": {
+   "A-like": 0,
+   "B-like": 4,
+   "other": 3
+  },
+  "classes": [
+   "other",
+   "one sheet (B-like)",
+   "one sheet (B-like)",
+   "one sheet (B-like)",
+   "one sheet (B-like)",
+   "other",
+   "other"
+  ],
+  "cut": 5.32
+ },
+ "rows_1_2_level1": {
+  "11": {
+   "applies": false,
+   "row0_class": "other"
+  },
+  "12": {
+   "applies": false,
+   "row0_class": "one sheet (B-like)"
+  },
+  "13": {
+   "applies": false,
+   "row0_class": "one sheet (B-like)"
+  },
+  "14": {
+   "applies": false,
+   "row0_class": "one sheet (B-like)"
+  },
+  "15": {
+   "applies": false,
+   "row0_class": "one sheet (B-like)"
+  },
+  "16": {
+   "applies": false,
+   "row0_class": "other"
+  },
+  "17": {
+   "applies": false,
+   "row0_class": "other"
+  }
+ },
+ "rows_1_2_tally": {
+  "row1": {},
+  "row2": {}
+ }
+}

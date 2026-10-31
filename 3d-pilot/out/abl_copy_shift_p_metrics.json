@@ -1,0 +1,129 @@
+{
+ "tag": "abl_copy_shift_p",
+ "run_dir": "out/ablate/copy_shift_p",
+ "input_w035_to": {
+  "w034": {
+   "n": 625,
+   "median_um": 110.9,
+   "p90_um": 137.9,
+   "max_um": 154.7,
+   "mean_um": 114.8
+  },
+  "w035": {
+   "n": 625,
+   "median_um": 0.0,
+   "p90_um": 0.0,
+   "max_um": 0.0,
+   "mean_um": 0.0
+  },
+  "w036": {
+   "n": 625,
+   "median_um": 129.1,
+   "p90_um": 159.0,
+   "max_um": 176.2,
+   "mean_um": 130.0
+  }
+ },
+ "front": {
+  "valid": 625,
+  "of": 625,
+  "to": {
+   "w034": {
+    "n": 625,
+    "median_um": 28.4,
+    "p90_um": 46.1,
+    "max_um": 62.5,
+    "mean_um": 28.8
+   },
+   "w035": {
+    "n": 625,
+    "median_um": 87.9,
+    "p90_um": 102.9,
+    "max_um": 109.5,
+    "mean_um": 87.5
+   },
+   "w036": {
+    "n": 625,
+    "median_um": 223.4,
+    "p90_um": 249.5,
+    "max_um": 257.5,
+    "mean_um": 217.5
+   }
+  },
+  "nearest_mesh_counts": {
+   "w034": 619,
+   "w035": 6,
+   "w036": 0
+  },
+  "displacement_um": {
+   "n": 625,
+   "median_um": 90.4,
+   "p90_um": 105.8,
+   "max_um": 115.4,
+   "mean_um": 90.4
+  },
+  "signed_normal_offset_um_median": -87.8
+ },
+ "back": {
+  "valid": 625,
+  "of": 625,
+  "to": {
+   "w034": {
+    "n": 625,
+    "median_um": 206.9,
+    "p90_um": 221.6,
+    "max_um": 229.8,
+    "mean_um": 203.3
+   },
+   "w035": {
+    "n": 625,
+    "median_um": 88.3,
+    "p90_um": 109.6,
+    "max_um": 120.6,
+    "mean_um": 90.1
+   },
+   "w036": {
+    "n": 625,
+    "median_um": 35.3,
+    "p90_um": 66.9,
+    "max_um": 73.9,
+    "mean_um": 38.6
+   }
+  },
+  "nearest_mesh_counts": {
+   "w034": 0,
+   "w035": 0,
+   "w036": 625
+  },
+  "displacement_um": {
+   "n": 625,
+   "median_um": 92.9,
+   "p90_um": 114.2,
+   "max_um": 125.9,
+   "mean_um": 94.4
+  },
+  "signed_normal_offset_um_median": 88.5
+ },
+ "naive_offset_to_w034": {
+  "sign": -1,
+  "offset_um": 110.9,
+  "to": {
+   "n": 625,
+   "median_um": 8.6,
+   "p90_um": 29.0,
+   "max_um": 44.5,
+   "mean_um": 11.7
+  }
+ },
+ "naive_offset_to_w036": {
+  "sign": 1,
+  "offset_um": 129.1,
+  "to": {
+   "n": 625,
+   "median_um": 16.9,
+   "p90_um": 35.4,
+   "max_um": 47.5,
+   "mean_um": 18.3
+  }
+ }
+}
