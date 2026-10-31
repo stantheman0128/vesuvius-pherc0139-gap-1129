@@ -1,0 +1,318 @@
+{
+ "what": "level-0 HEAD estimate for LEVEL0-ADDENDUM.md, same method as cal2_look_finer_estimate.py",
+ "region": {
+  "place": "cal2_z14856_a245",
+  "trace_columns": [
+   11,
+   17
+  ],
+  "trace_rows": [
+   0,
+   2
+  ],
+  "normal_s_um": [
+   -130.0,
+   60.0
+  ],
+  "sample_step_um": 2.0,
+  "patch": {
+   "n_rows": 183,
+   "n_cols": 274,
+   "max_col_gap_um": 90.8,
+   "max_row_gap_um": 181.9
+  },
+  "n_patch_points": 50142
+ },
+ "source": {
+  "volume": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0139/volumes/20260413113053-1.129um-0.2m-59keV-masked.zarr",
+  "method": "HTTP HEAD per chunk (Content-Length); no chunk body read",
+  "head_requests": 48
+ },
+ "ledger": {
+  "total_bytes_now": 1473529433,
+  "lines": 8680,
+  "limit_bytes": 1633529433,
+  "step_budget_bytes": 160000000
+ },
+ "level": {
+  "level": 0,
+  "voxel_um": 1.129,
+  "chunk_shape": [
+   128,
+   128,
+   128
+  ],
+  "dtype": "|u1",
+  "compressor": null,
+  "bytes_per_chunk_from_zarray": 2097152,
+  "n_chunks": 48,
+  "region_bbox_voxels_xyz": [
+   [
+    15149,
+    12449,
+    6723
+   ],
+   [
+    15514,
+    12781,
+    7260
+   ]
+  ],
+  "level3_parents_all_in_cal2_box": true,
+  "fetch_ct_outside_gap_all": true,
+  "present_200": 48,
+  "missing_403_404": [],
+  "errors": [],
+  "content_length_values": [
+   2097152
+  ],
+  "total_bytes": 100663296,
+  "same_keys_as_finer_ct_estimate": true,
+  "keys_zyx": [
+   [
+    52,
+    97,
+    118
+   ],
+   [
+    52,
+    97,
+    119
+   ],
+   [
+    52,
+    97,
+    120
+   ],
+   [
+    52,
+    97,
+    121
+   ],
+   [
+    52,
+    98,
+    118
+   ],
+   [
+    52,
+    98,
+    119
+   ],
+   [
+    52,
+    98,
+    120
+   ],
+   [
+    52,
+    98,
+    121
+   ],
+   [
+    53,
+    97,
+    118
+   ],
+   [
+    53,
+    97,
+    119
+   ],
+   [
+    53,
+    97,
+    120
+   ],
+   [
+    53,
+    97,
+    121
+   ],
+   [
+    53,
+    98,
+    118
+   ],
+   [
+    53,
+    98,
+    119
+   ],
+   [
+    53,
+    98,
+    120
+   ],
+   [
+    53,
+    98,
+    121
+   ],
+   [
+    53,
+    99,
+    118
+   ],
+   [
+    54,
+    97,
+    118
+   ],
+   [
+    54,
+    97,
+    119
+   ],
+   [
+    54,
+    97,
+    120
+   ],
+   [
+    54,
+    97,
+    121
+   ],
+   [
+    54,
+    98,
+    118
+   ],
+   [
+    54,
+    98,
+    119
+   ],
+   [
+    54,
+    98,
+    120
+   ],
+   [
+    54,
+    98,
+    121
+   ],
+   [
+    54,
+    99,
+    118
+   ],
+   [
+    54,
+    99,
+    119
+   ],
+   [
+    54,
+    99,
+    120
+   ],
+   [
+    54,
+    99,
+    121
+   ],
+   [
+    55,
+    97,
+    118
+   ],
+   [
+    55,
+    97,
+    119
+   ],
+   [
+    55,
+    97,
+    120
+   ],
+   [
+    55,
+    97,
+    121
+   ],
+   [
+    55,
+    98,
+    118
+   ],
+   [
+    55,
+    98,
+    119
+   ],
+   [
+    55,
+    98,
+    120
+   ],
+   [
+    55,
+    98,
+    121
+   ],
+   [
+    55,
+    99,
+    118
+   ],
+   [
+    55,
+    99,
+    119
+   ],
+   [
+    55,
+    99,
+    120
+   ],
+   [
+    55,
+    99,
+    121
+   ],
+   [
+    56,
+    98,
+    118
+   ],
+   [
+    56,
+    98,
+    119
+   ],
+   [
+    56,
+    98,
+    120
+   ],
+   [
+    56,
+    99,
+    118
+   ],
+   [
+    56,
+    99,
+    119
+   ],
+   [
+    56,
+    99,
+    120
+   ],
+   [
+    56,
+    99,
+    121
+   ]
+  ]
+ },
+ "fetch_dir": "downloads/ct_level0",
+ "fetch_dir_exists_now": false,
+ "fits_budget": true,
+ "ledger_after_if_fetched": 1574192729
+}

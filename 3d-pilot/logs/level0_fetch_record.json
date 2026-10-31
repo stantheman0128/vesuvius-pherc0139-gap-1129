@@ -1,0 +1,13 @@
+{
+ "first_fetch_started": "2026-11-01 04:39:08 +0800",
+ "finished": "2026-11-01 04:41:44 +0800",
+ "ledger_before": 1473529433,
+ "ledger_after": 1574192729,
+ "lines_before": 8680,
+ "lines_after": 8728,
+ "fetched_this_run": 100663296,
+ "tag": "ct-L0",
+ "absent": [],
+ "n_chunks": 48,
+ "dir": "downloads\\ct_level0"
+}

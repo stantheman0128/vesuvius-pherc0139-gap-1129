@@ -1,0 +1,2820 @@
+{
+ "rule_file": "out/cal2_look/FINER-RULE.md",
+ "rule_sha256": "c7d471962f91e3f6e36e42a18ba1bf3efe3760f874ba55c13f58a23b0b2feea8",
+ "addendum_file": "out/cal2_look/LEVEL0-ADDENDUM.md",
+ "addendum_sha256": "64e021755e8815ba489445a84702a8287a860c12ef7d7e0cb43bf4c1757086bd",
+ "addendum_saved": "2026-11-01 04:37:02 +0800",
+ "levels": {
+  "0": {
+   "noise": {
+    "sigma_vox_x": 1.05,
+    "sigma_vox_z": 1.05,
+    "sigma_half": 1.31,
+    "sigma_white": 0.13,
+    "sigma_prof": 1.31,
+    "k": 8,
+    "cut_main": 5.58
+   },
+   "cut": 5.58,
+   "columns": {
+    "11": {
+     "row0": {
+      "s34": -26.8,
+      "s35": 2.6,
+      "checked": true,
+      "ridges_s_um": [
+       -30.0
+      ],
+      "prominences": [
+       89.2
+      ]
+     },
+     "row1": {
+      "s34": -33.0,
+      "s35": 11.1,
+      "checked": true,
+      "ridges_s_um": [
+       -16.0,
+       40.0
+      ],
+      "prominences": [
+       94.9,
+       45.3
+      ]
+     },
+     "row2": {
+      "s34": -45.6,
+      "s35": 21.5,
+      "checked": true,
+      "ridges_s_um": [
+       -64.0,
+       19.0
+      ],
+      "prominences": [
+       83.0,
+       22.7
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-30.0]"
+    },
+    "12": {
+     "row0": {
+      "s34": -29.1,
+      "s35": 0.0,
+      "checked": true,
+      "ridges_s_um": [
+       -14.0
+      ],
+      "prominences": [
+       98.6
+      ]
+     },
+     "row1": {
+      "s34": -35.5,
+      "s35": 6.9,
+      "checked": true,
+      "ridges_s_um": [
+       6.0
+      ],
+      "prominences": [
+       86.6
+      ]
+     },
+     "row2": {
+      "s34": -42.7,
+      "s35": 16.2,
+      "checked": true,
+      "ridges_s_um": [
+       -65.0,
+       -21.0,
+       6.0,
+       36.0,
+       51.0
+      ],
+      "prominences": [
+       53.8,
+       38.8,
+       10.7,
+       19.0,
+       7.1
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -14.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "13": {
+     "row0": {
+      "s34": -29.1,
+      "s35": -0.7,
+      "checked": true,
+      "ridges_s_um": [
+       13.0
+      ],
+      "prominences": [
+       114.4
+      ]
+     },
+     "row1": {
+      "s34": -34.0,
+      "s35": 1.9,
+      "checked": true,
+      "ridges_s_um": [
+       -24.0,
+       2.0
+      ],
+      "prominences": [
+       10.7,
+       76.7
+      ]
+     },
+     "row2": {
+      "s34": -35.6,
+      "s35": 12.5,
+      "checked": true,
+      "ridges_s_um": [
+       -36.0,
+       1.0
+      ],
+      "prominences": [
+       57.0,
+       8.3
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 13.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "14": {
+     "row0": {
+      "s34": -28.2,
+      "s35": 4.0,
+      "checked": true,
+      "ridges_s_um": [
+       6.0
+      ],
+      "prominences": [
+       120.4
+      ]
+     },
+     "row1": {
+      "s34": -33.4,
+      "s35": 0.8,
+      "checked": true,
+      "ridges_s_um": [
+       -105.0,
+       0.0
+      ],
+      "prominences": [
+       10.6,
+       116.3
+      ]
+     },
+     "row2": {
+      "s34": -33.9,
+      "s35": 12.4,
+      "checked": true,
+      "ridges_s_um": [
+       -7.0
+      ],
+      "prominences": [
+       92.0
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 6.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "15": {
+     "row0": {
+      "s34": -27.4,
+      "s35": 7.4,
+      "checked": true,
+      "ridges_s_um": [
+       4.0,
+       30.0
+      ],
+      "prominences": [
+       65.4,
+       26.2
+      ]
+     },
+     "row1": {
+      "s34": -32.0,
+      "s35": 2.1,
+      "checked": true,
+      "ridges_s_um": [
+       -89.0,
+       -27.0,
+       5.0
+      ],
+      "prominences": [
+       7.7,
+       10.3,
+       101.7
+      ]
+     },
+     "row2": {
+      "s34": -31.5,
+      "s35": 13.2,
+      "checked": true,
+      "ridges_s_um": [
+       -22.0,
+       17.0
+      ],
+      "prominences": [
+       97.5,
+       15.4
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 4.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "16": {
+     "row0": {
+      "s34": -31.4,
+      "s35": 7.6,
+      "checked": true,
+      "ridges_s_um": [
+       -16.0
+      ],
+      "prominences": [
+       112.5
+      ]
+     },
+     "row1": {
+      "s34": -37.2,
+      "s35": 4.9,
+      "checked": true,
+      "ridges_s_um": [
+       -24.0,
+       0.0
+      ],
+      "prominences": [
+       114.4,
+       7.3
+      ]
+     },
+     "row2": {
+      "s34": -33.5,
+      "s35": 15.4,
+      "checked": true,
+      "ridges_s_um": [
+       -41.0,
+       15.0,
+       52.0
+      ],
+      "prominences": [
+       111.8,
+       25.0,
+       7.2
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-16.0]"
+    },
+    "17": {
+     "row0": {
+      "s34": -42.7,
+      "s35": 6.3,
+      "checked": true,
+      "ridges_s_um": [
+       -23.0,
+       33.0
+      ],
+      "prominences": [
+       113.6,
+       22.1
+      ]
+     },
+     "row1": {
+      "s34": -46.4,
+      "s35": 8.2,
+      "checked": true,
+      "ridges_s_um": [
+       -36.0,
+       23.0
+      ],
+      "prominences": [
+       107.4,
+       36.2
+      ]
+     },
+     "row2": {
+      "s34": -38.0,
+      "s35": 18.4,
+      "checked": true,
+      "ridges_s_um": [
+       -45.0,
+       -11.0
+      ],
+      "prominences": [
+       94.3,
+       16.7
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-23.0]"
+    }
+   },
+   "calls": {
+    "main": {
+     "verdict": "undecided",
+     "counts": {
+      "A-like": 0,
+      "B-like": 4,
+      "other": 3
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other",
+      "other"
+     ],
+     "cut": 5.58
+    },
+    "2x_cut": {
+     "verdict": "undecided",
+     "counts": {
+      "A-like": 0,
+      "B-like": 4,
+      "other": 3
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other",
+      "other"
+     ],
+     "cut": 11.15
+    }
+   }
+  },
+  "1": {
+   "noise": {
+    "sigma_vox_x": 1.05,
+    "sigma_vox_z": 2.1,
+    "sigma_half": 1.25,
+    "sigma_white": 0.52,
+    "sigma_prof": 1.25,
+    "k": 4,
+    "cut_main": 5.32
+   },
+   "cut": 5.32,
+   "columns": {
+    "11": {
+     "row0": {
+      "s34": -26.8,
+      "s35": 2.6,
+      "checked": true,
+      "ridges_s_um": [
+       -29.0
+      ],
+      "prominences": [
+       88.8
+      ]
+     },
+     "row1": {
+      "s34": -33.0,
+      "s35": 11.1,
+      "checked": true,
+      "ridges_s_um": [
+       -15.0,
+       41.0
+      ],
+      "prominences": [
+       93.6,
+       44.9
+      ]
+     },
+     "row2": {
+      "s34": -45.6,
+      "s35": 21.5,
+      "checked": true,
+      "ridges_s_um": [
+       -63.0,
+       21.0
+      ],
+      "prominences": [
+       82.6,
+       21.6
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-29.0]"
+    },
+    "12": {
+     "row0": {
+      "s34": -29.1,
+      "s35": 0.0,
+      "checked": true,
+      "ridges_s_um": [
+       -14.0
+      ],
+      "prominences": [
+       97.6
+      ]
+     },
+     "row1": {
+      "s34": -35.5,
+      "s35": 6.9,
+      "checked": true,
+      "ridges_s_um": [
+       7.0
+      ],
+      "prominences": [
+       85.9
+      ]
+     },
+     "row2": {
+      "s34": -42.7,
+      "s35": 16.2,
+      "checked": true,
+      "ridges_s_um": [
+       -65.0,
+       -20.0,
+       6.0,
+       36.0,
+       51.0
+      ],
+      "prominences": [
+       53.6,
+       38.9,
+       9.2,
+       17.2,
+       6.6
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -14.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "13": {
+     "row0": {
+      "s34": -29.1,
+      "s35": -0.7,
+      "checked": true,
+      "ridges_s_um": [
+       13.0
+      ],
+      "prominences": [
+       114.8
+      ]
+     },
+     "row1": {
+      "s34": -34.0,
+      "s35": 1.9,
+      "checked": true,
+      "ridges_s_um": [
+       -96.0,
+       -24.0,
+       9.0
+      ],
+      "prominences": [
+       5.5,
+       9.9,
+       75.7
+      ]
+     },
+     "row2": {
+      "s34": -35.6,
+      "s35": 12.5,
+      "checked": true,
+      "ridges_s_um": [
+       -36.0,
+       1.0
+      ],
+      "prominences": [
+       57.5,
+       7.6
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 13.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "14": {
+     "row0": {
+      "s34": -28.2,
+      "s35": 4.0,
+      "checked": true,
+      "ridges_s_um": [
+       5.0
+      ],
+      "prominences": [
+       120.3
+      ]
+     },
+     "row1": {
+      "s34": -33.4,
+      "s35": 0.8,
+      "checked": true,
+      "ridges_s_um": [
+       -104.0,
+       0.0
+      ],
+      "prominences": [
+       10.2,
+       116.2
+      ]
+     },
+     "row2": {
+      "s34": -33.9,
+      "s35": 12.4,
+      "checked": true,
+      "ridges_s_um": [
+       -8.0
+      ],
+      "prominences": [
+       92.2
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 5.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "15": {
+     "row0": {
+      "s34": -27.4,
+      "s35": 7.4,
+      "checked": true,
+      "ridges_s_um": [
+       5.0,
+       31.0
+      ],
+      "prominences": [
+       65.0,
+       24.6
+      ]
+     },
+     "row1": {
+      "s34": -32.0,
+      "s35": 2.1,
+      "checked": true,
+      "ridges_s_um": [
+       -88.0,
+       -26.0,
+       5.0
+      ],
+      "prominences": [
+       7.9,
+       7.5,
+       100.0
+      ]
+     },
+     "row2": {
+      "s34": -31.5,
+      "s35": 13.2,
+      "checked": true,
+      "ridges_s_um": [
+       -21.0,
+       17.0
+      ],
+      "prominences": [
+       98.0,
+       14.9
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 5.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "16": {
+     "row0": {
+      "s34": -31.4,
+      "s35": 7.6,
+      "checked": true,
+      "ridges_s_um": [
+       -15.0
+      ],
+      "prominences": [
+       111.4
+      ]
+     },
+     "row1": {
+      "s34": -37.2,
+      "s35": 4.9,
+      "checked": true,
+      "ridges_s_um": [
+       -24.0,
+       1.0
+      ],
+      "prominences": [
+       116.0,
+       7.1
+      ]
+     },
+     "row2": {
+      "s34": -33.5,
+      "s35": 15.4,
+      "checked": true,
+      "ridges_s_um": [
+       -41.0,
+       15.0,
+       52.0
+      ],
+      "prominences": [
+       111.5,
+       24.1,
+       7.7
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-15.0]"
+    },
+    "17": {
+     "row0": {
+      "s34": -42.7,
+      "s35": 6.3,
+      "checked": true,
+      "ridges_s_um": [
+       -24.0,
+       33.0
+      ],
+      "prominences": [
+       113.6,
+       20.7
+      ]
+     },
+     "row1": {
+      "s34": -46.4,
+      "s35": 8.2,
+      "checked": true,
+      "ridges_s_um": [
+       -36.0,
+       23.0
+      ],
+      "prominences": [
+       107.2,
+       34.8
+      ]
+     },
+     "row2": {
+      "s34": -38.0,
+      "s35": 18.4,
+      "checked": true,
+      "ridges_s_um": [
+       -45.0,
+       -11.0
+      ],
+      "prominences": [
+       93.7,
+       15.4
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-24.0]"
+    }
+   },
+   "calls": {
+    "main": {
+     "verdict": "undecided",
+     "counts": {
+      "A-like": 0,
+      "B-like": 4,
+      "other": 3
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other",
+      "other"
+     ],
+     "cut": 5.32
+    },
+    "2x_cut": {
+     "verdict": "undecided",
+     "counts": {
+      "A-like": 0,
+      "B-like": 4,
+      "other": 3
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other",
+      "other"
+     ],
+     "cut": 10.64
+    }
+   }
+  },
+  "2": {
+   "noise": {
+    "sigma_vox_x": 2.1,
+    "sigma_vox_z": 3.15,
+    "sigma_half": 1.13,
+    "sigma_white": 1.57,
+    "sigma_prof": 1.57,
+    "k": 2,
+    "cut_main": 6.67
+   },
+   "cut": 6.67,
+   "columns": {
+    "11": {
+     "row0": {
+      "s34": -26.8,
+      "s35": 2.6,
+      "checked": true,
+      "ridges_s_um": [
+       -27.0
+      ],
+      "prominences": [
+       86.9
+      ]
+     },
+     "row1": {
+      "s34": -33.0,
+      "s35": 11.1,
+      "checked": true,
+      "ridges_s_um": [
+       -15.0,
+       41.0
+      ],
+      "prominences": [
+       89.0,
+       42.1
+      ]
+     },
+     "row2": {
+      "s34": -45.6,
+      "s35": 21.5,
+      "checked": true,
+      "ridges_s_um": [
+       -61.0,
+       23.0
+      ],
+      "prominences": [
+       80.7,
+       18.4
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-27.0]"
+    },
+    "12": {
+     "row0": {
+      "s34": -29.1,
+      "s35": 0.0,
+      "checked": true,
+      "ridges_s_um": [
+       -7.0
+      ],
+      "prominences": [
+       96.2
+      ]
+     },
+     "row1": {
+      "s34": -35.5,
+      "s35": 6.9,
+      "checked": true,
+      "ridges_s_um": [
+       7.0
+      ],
+      "prominences": [
+       83.6
+      ]
+     },
+     "row2": {
+      "s34": -42.7,
+      "s35": 16.2,
+      "checked": true,
+      "ridges_s_um": [
+       -64.0,
+       -18.0,
+       53.0
+      ],
+      "prominences": [
+       51.2,
+       38.7,
+       15.6
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -7.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "13": {
+     "row0": {
+      "s34": -29.1,
+      "s35": -0.7,
+      "checked": true,
+      "ridges_s_um": [
+       13.0
+      ],
+      "prominences": [
+       113.7
+      ]
+     },
+     "row1": {
+      "s34": -34.0,
+      "s35": 1.9,
+      "checked": true,
+      "ridges_s_um": [
+       5.0
+      ],
+      "prominences": [
+       73.1
+      ]
+     },
+     "row2": {
+      "s34": -35.6,
+      "s35": 12.5,
+      "checked": true,
+      "ridges_s_um": [
+       -34.0,
+       0.0
+      ],
+      "prominences": [
+       57.9,
+       7.0
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 13.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "14": {
+     "row0": {
+      "s34": -28.2,
+      "s35": 4.0,
+      "checked": true,
+      "ridges_s_um": [
+       6.0
+      ],
+      "prominences": [
+       119.2
+      ]
+     },
+     "row1": {
+      "s34": -33.4,
+      "s35": 0.8,
+      "checked": true,
+      "ridges_s_um": [
+       -104.0,
+       1.0
+      ],
+      "prominences": [
+       8.9,
+       115.5
+      ]
+     },
+     "row2": {
+      "s34": -33.9,
+      "s35": 12.4,
+      "checked": true,
+      "ridges_s_um": [
+       -7.0
+      ],
+      "prominences": [
+       92.3
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 6.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "15": {
+     "row0": {
+      "s34": -27.4,
+      "s35": 7.4,
+      "checked": true,
+      "ridges_s_um": [
+       6.0,
+       31.0
+      ],
+      "prominences": [
+       64.0,
+       18.7
+      ]
+     },
+     "row1": {
+      "s34": -32.0,
+      "s35": 2.1,
+      "checked": true,
+      "ridges_s_um": [
+       -86.0,
+       6.0
+      ],
+      "prominences": [
+       7.7,
+       97.6
+      ]
+     },
+     "row2": {
+      "s34": -31.5,
+      "s35": 13.2,
+      "checked": true,
+      "ridges_s_um": [
+       -20.0,
+       17.0
+      ],
+      "prominences": [
+       98.3,
+       12.4
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 6.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "16": {
+     "row0": {
+      "s34": -31.4,
+      "s35": 7.6,
+      "checked": true,
+      "ridges_s_um": [
+       -11.0
+      ],
+      "prominences": [
+       108.8
+      ]
+     },
+     "row1": {
+      "s34": -37.2,
+      "s35": 4.9,
+      "checked": true,
+      "ridges_s_um": [
+       -24.0
+      ],
+      "prominences": [
+       118.3
+      ]
+     },
+     "row2": {
+      "s34": -33.5,
+      "s35": 15.4,
+      "checked": true,
+      "ridges_s_um": [
+       -40.0,
+       15.0
+      ],
+      "prominences": [
+       110.0,
+       20.4
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -11.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "17": {
+     "row0": {
+      "s34": -42.7,
+      "s35": 6.3,
+      "checked": true,
+      "ridges_s_um": [
+       -22.0,
+       33.0
+      ],
+      "prominences": [
+       112.4,
+       17.2
+      ]
+     },
+     "row1": {
+      "s34": -46.4,
+      "s35": 8.2,
+      "checked": true,
+      "ridges_s_um": [
+       -35.0,
+       24.0
+      ],
+      "prominences": [
+       105.6,
+       30.8
+      ]
+     },
+     "row2": {
+      "s34": -38.0,
+      "s35": 18.4,
+      "checked": true,
+      "ridges_s_um": [
+       -44.0,
+       -10.0
+      ],
+      "prominences": [
+       90.9,
+       11.6
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-22.0]"
+    }
+   },
+   "calls": {
+    "main": {
+     "verdict": "B",
+     "counts": {
+      "A-like": 0,
+      "B-like": 5,
+      "other": 2
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other"
+     ],
+     "cut": 6.67
+    }
+   }
+  },
+  "3": {
+   "noise": {
+    "sigma_prof": 4.19,
+    "source": "cal2_look.py (profiles.json noise)",
+    "cut_main": 17.79
+   },
+   "cut": 17.79,
+   "columns": {
+    "11": {
+     "row0": {
+      "s34": -26.8,
+      "s35": 2.6,
+      "checked": true,
+      "ridges_s_um": [
+       -21.0
+      ],
+      "prominences": [
+       84.2
+      ]
+     },
+     "row1": {
+      "s34": -33.0,
+      "s35": 11.1,
+      "checked": true,
+      "ridges_s_um": [
+       -16.0,
+       49.0
+      ],
+      "prominences": [
+       76.5,
+       31.3
+      ]
+     },
+     "row2": {
+      "s34": -45.6,
+      "s35": 21.5,
+      "checked": true,
+      "ridges_s_um": [
+       -61.0
+      ],
+      "prominences": [
+       76.0
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-21.0]"
+    },
+    "12": {
+     "row0": {
+      "s34": -29.1,
+      "s35": 0.0,
+      "checked": true,
+      "ridges_s_um": [
+       -6.0
+      ],
+      "prominences": [
+       94.4
+      ]
+     },
+     "row1": {
+      "s34": -35.5,
+      "s35": 6.9,
+      "checked": true,
+      "ridges_s_um": [
+       11.0
+      ],
+      "prominences": [
+       75.1
+      ]
+     },
+     "row2": {
+      "s34": -42.7,
+      "s35": 16.2,
+      "checked": true,
+      "ridges_s_um": [
+       -64.0,
+       -17.0
+      ],
+      "prominences": [
+       45.2,
+       38.5
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -6.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "13": {
+     "row0": {
+      "s34": -29.1,
+      "s35": -0.7,
+      "checked": true,
+      "ridges_s_um": [
+       12.0
+      ],
+      "prominences": [
+       108.3
+      ]
+     },
+     "row1": {
+      "s34": -34.0,
+      "s35": 1.9,
+      "checked": true,
+      "ridges_s_um": [
+       6.0
+      ],
+      "prominences": [
+       67.5
+      ]
+     },
+     "row2": {
+      "s34": -35.6,
+      "s35": 12.5,
+      "checked": true,
+      "ridges_s_um": [
+       -33.0
+      ],
+      "prominences": [
+       56.0
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 12.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "14": {
+     "row0": {
+      "s34": -28.2,
+      "s35": 4.0,
+      "checked": true,
+      "ridges_s_um": [
+       10.0
+      ],
+      "prominences": [
+       116.2
+      ]
+     },
+     "row1": {
+      "s34": -33.4,
+      "s35": 0.8,
+      "checked": true,
+      "ridges_s_um": [
+       0.0
+      ],
+      "prominences": [
+       111.3
+      ]
+     },
+     "row2": {
+      "s34": -33.9,
+      "s35": 12.4,
+      "checked": true,
+      "ridges_s_um": [
+       -15.0
+      ],
+      "prominences": [
+       88.8
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 10.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "15": {
+     "row0": {
+      "s34": -27.4,
+      "s35": 7.4,
+      "checked": true,
+      "ridges_s_um": [
+       11.0
+      ],
+      "prominences": [
+       62.0
+      ]
+     },
+     "row1": {
+      "s34": -32.0,
+      "s35": 2.1,
+      "checked": true,
+      "ridges_s_um": [
+       6.0
+      ],
+      "prominences": [
+       90.5
+      ]
+     },
+     "row2": {
+      "s34": -31.5,
+      "s35": 13.2,
+      "checked": true,
+      "ridges_s_um": [
+       -22.0
+      ],
+      "prominences": [
+       92.4
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": 11.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "16": {
+     "row0": {
+      "s34": -31.4,
+      "s35": 7.6,
+      "checked": true,
+      "ridges_s_um": [
+       -7.0
+      ],
+      "prominences": [
+       100.1
+      ]
+     },
+     "row1": {
+      "s34": -37.2,
+      "s35": 4.9,
+      "checked": true,
+      "ridges_s_um": [
+       -23.0
+      ],
+      "prominences": [
+       111.6
+      ]
+     },
+     "row2": {
+      "s34": -33.5,
+      "s35": 15.4,
+      "checked": true,
+      "ridges_s_um": [
+       -38.0
+      ],
+      "prominences": [
+       101.5
+      ]
+     },
+     "row0_class": "one sheet (B-like)",
+     "row0_R_up": -7.0,
+     "row0_R_lo": null,
+     "row0_why": "1 ridge in W0"
+    },
+    "17": {
+     "row0": {
+      "s34": -42.7,
+      "s35": 6.3,
+      "checked": true,
+      "ridges_s_um": [
+       -20.0
+      ],
+      "prominences": [
+       104.6
+      ]
+     },
+     "row1": {
+      "s34": -46.4,
+      "s35": 8.2,
+      "checked": true,
+      "ridges_s_um": [
+       -31.0,
+       28.0
+      ],
+      "prominences": [
+       100.9,
+       22.5
+      ]
+     },
+     "row2": {
+      "s34": -38.0,
+      "s35": 18.4,
+      "checked": true,
+      "ridges_s_um": [
+       -44.0
+      ],
+      "prominences": [
+       78.7
+      ]
+     },
+     "row0_class": "other",
+     "row0_R_up": null,
+     "row0_R_lo": null,
+     "row0_why": "1 ridges in W0: [-20.0]"
+    }
+   },
+   "calls": {
+    "main": {
+     "verdict": "B",
+     "counts": {
+      "A-like": 0,
+      "B-like": 5,
+      "other": 2
+     },
+     "classes": [
+      "other",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "one sheet (B-like)",
+      "other"
+     ],
+     "cut": 17.79
+    }
+   }
+  }
+ },
+ "reproduces_finer_look_json": {
+  "1": true,
+  "2": true,
+  "3": true
+ },
+ "rows_1_2_level0": {
+  "11": {
+   "applies": false,
+   "row0_class": "other",
+   "path_all_checked": true
+  },
+  "12": {
+   "applies": false,
+   "row0_class": "one sheet (B-like)",
+   "path_all_checked": true
+  },
+  "13": {
+   "applies": false,
+   "row0_class": "one sheet (B-like)",
+   "path_all_checked": true
+  },
+  "14": {
+   "applies": false,
+   "row0_class": "one sheet (B-like)",
+   "path_all_checked": true
+  },
+  "15": {
+   "applies": false,
+   "row0_class": "one sheet (B-like)",
+   "path_all_checked": true
+  },
+  "16": {
+   "applies": false,
+   "row0_class": "other",
+   "path_all_checked": true
+  },
+  "17": {
+   "applies": false,
+   "row0_class": "other",
+   "path_all_checked": true
+  }
+ },
+ "rows_1_2_tally_level0": {
+  "row1": {},
+  "row2": {}
+ },
+ "descriptive": {
+  "what": "outside FINER-RULE.md: width and edge as cal2_look_finer_width.py; dip check as LEVEL0-ADDENDUM.md",
+  "columns": {
+   "11": {
+    "L0": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -30.0,
+        89.21
+       ]
+      ],
+      "maxima_between_crossings": [],
+      "main_s_um": -30.0,
+      "main_prominence": 89.21,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -30.0,
+     "half_width_um": 45.0,
+     "edge_10_90_um_inner_outer": [
+      23.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -46.0,
+      -1.0
+     ],
+     "level_at_w034": 0.99,
+     "level_at_w035": 0.38
+    },
+    "L1": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -29.0,
+        88.85
+       ],
+       [
+        -15.0,
+        0.05
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -15.0,
+        0.05
+       ]
+      ],
+      "main_s_um": -29.0,
+      "main_prominence": 88.85,
+      "largest_other_prominence_in_W0": 0.05,
+      "largest_other_over_cut": 0.009,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -29.0,
+     "half_width_um": 46.0,
+     "edge_10_90_um_inner_outer": [
+      23.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -46.0,
+      0.0
+     ],
+     "level_at_w034": 0.99,
+     "level_at_w035": 0.41
+    },
+    "L2": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -29.0,
+        0.01
+       ],
+       [
+        -27.0,
+        86.93
+       ]
+      ],
+      "maxima_between_crossings": [],
+      "main_s_um": -27.0,
+      "main_prominence": 86.93,
+      "largest_other_prominence_in_W0": 0.01,
+      "largest_other_over_cut": 0.001,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -27.0,
+     "half_width_um": 47.0,
+     "edge_10_90_um_inner_outer": [
+      23.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -45.0,
+      2.0
+     ],
+     "level_at_w034": 1.0,
+     "level_at_w035": 0.48
+    },
+    "L3": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -21.0,
+        84.23
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -21.0,
+        84.23
+       ]
+      ],
+      "main_s_um": -21.0,
+      "main_prominence": 84.23,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -21.0,
+     "half_width_um": 49.0,
+     "edge_10_90_um_inner_outer": [
+      24.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -44.0,
+      5.0
+     ],
+     "level_at_w034": 0.99,
+     "level_at_w035": 0.59
+    }
+   },
+   "12": {
+    "L0": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -14.0,
+        98.59
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -14.0,
+        98.59
+       ]
+      ],
+      "main_s_um": -14.0,
+      "main_prominence": 98.59,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -14.0,
+     "half_width_um": 59.0,
+     "edge_10_90_um_inner_outer": [
+      22.0,
+      57.0
+     ],
+     "half_lo_hi_um": [
+      -31.0,
+      28.0
+     ],
+     "level_at_w034": 0.63,
+     "level_at_w035": 0.86
+    },
+    "L1": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -14.0,
+        97.55
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -14.0,
+        97.55
+       ]
+      ],
+      "main_s_um": -14.0,
+      "main_prominence": 97.55,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -14.0,
+     "half_width_um": 60.0,
+     "edge_10_90_um_inner_outer": [
+      22.0,
+      55.0
+     ],
+     "half_lo_hi_um": [
+      -31.0,
+      29.0
+     ],
+     "level_at_w034": 0.6,
+     "level_at_w035": 0.9
+    },
+    "L2": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -11.0,
+        0.11
+       ],
+       [
+        -7.0,
+        96.21
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -11.0,
+        0.11
+       ],
+       [
+        -7.0,
+        96.21
+       ]
+      ],
+      "main_s_um": -7.0,
+      "main_prominence": 96.21,
+      "largest_other_prominence_in_W0": 0.11,
+      "largest_other_over_cut": 0.016,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -7.0,
+     "half_width_um": 61.0,
+     "edge_10_90_um_inner_outer": [
+      22.0,
+      53.0
+     ],
+     "half_lo_hi_um": [
+      -29.0,
+      32.0
+     ],
+     "level_at_w034": 0.54,
+     "level_at_w035": 0.93
+    },
+    "L3": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -6.0,
+        94.4
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -6.0,
+        94.4
+       ]
+      ],
+      "main_s_um": -6.0,
+      "main_prominence": 94.4,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -6.0,
+     "half_width_um": 63.0,
+     "edge_10_90_um_inner_outer": [
+      23.0,
+      50.0
+     ],
+     "half_lo_hi_um": [
+      -27.0,
+      36.0
+     ],
+     "level_at_w034": 0.46,
+     "level_at_w035": 0.99
+    }
+   },
+   "13": {
+    "L0": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -3.0,
+        3.23
+       ],
+       [
+        13.0,
+        114.39
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -3.0,
+        3.23
+       ]
+      ],
+      "main_s_um": 13.0,
+      "main_prominence": 114.39,
+      "largest_other_prominence_in_W0": 3.23,
+      "largest_other_over_cut": 0.579,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 13.0,
+     "half_width_um": 62.0,
+     "edge_10_90_um_inner_outer": [
+      27.0,
+      40.0
+     ],
+     "half_lo_hi_um": [
+      -19.0,
+      43.0
+     ],
+     "level_at_w034": 0.21,
+     "level_at_w035": 0.99
+    },
+    "L1": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -2.0,
+        2.67
+       ],
+       [
+        13.0,
+        114.76
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -2.0,
+        2.67
+       ]
+      ],
+      "main_s_um": 13.0,
+      "main_prominence": 114.76,
+      "largest_other_prominence_in_W0": 2.67,
+      "largest_other_over_cut": 0.503,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 13.0,
+     "half_width_um": 61.0,
+     "edge_10_90_um_inner_outer": [
+      26.0,
+      41.0
+     ],
+     "half_lo_hi_um": [
+      -18.0,
+      43.0
+     ],
+     "level_at_w034": 0.2,
+     "level_at_w035": 0.99
+    },
+    "L2": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        0.0,
+        0.67
+       ],
+       [
+        13.0,
+        113.67
+       ]
+      ],
+      "maxima_between_crossings": [],
+      "main_s_um": 13.0,
+      "main_prominence": 113.67,
+      "largest_other_prominence_in_W0": 0.67,
+      "largest_other_over_cut": 0.101,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 13.0,
+     "half_width_um": 62.0,
+     "edge_10_90_um_inner_outer": [
+      26.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -17.0,
+      45.0
+     ],
+     "level_at_w034": 0.18,
+     "level_at_w035": 0.98
+    },
+    "L3": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        12.0,
+        108.32
+       ]
+      ],
+      "maxima_between_crossings": [],
+      "main_s_um": 12.0,
+      "main_prominence": 108.32,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 12.0,
+     "half_width_um": 63.0,
+     "edge_10_90_um_inner_outer": [
+      28.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -16.0,
+      47.0
+     ],
+     "level_at_w034": 0.16,
+     "level_at_w035": 0.94
+    }
+   },
+   "14": {
+    "L0": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        6.0,
+        120.35
+       ]
+      ],
+      "maxima_between_crossings": [],
+      "main_s_um": 6.0,
+      "main_prominence": 120.35,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 6.0,
+     "half_width_um": 60.0,
+     "edge_10_90_um_inner_outer": [
+      31.0,
+      44.0
+     ],
+     "half_lo_hi_um": [
+      -21.0,
+      39.0
+     ],
+     "level_at_w034": 0.3,
+     "level_at_w035": 1.0
+    },
+    "L1": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        5.0,
+        120.35
+       ]
+      ],
+      "maxima_between_crossings": [],
+      "main_s_um": 5.0,
+      "main_prominence": 120.35,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 5.0,
+     "half_width_um": 60.0,
+     "edge_10_90_um_inner_outer": [
+      30.0,
+      43.0
+     ],
+     "half_lo_hi_um": [
+      -20.0,
+      40.0
+     ],
+     "level_at_w034": 0.28,
+     "level_at_w035": 1.0
+    },
+    "L2": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        6.0,
+        119.15
+       ]
+      ],
+      "maxima_between_crossings": [],
+      "main_s_um": 6.0,
+      "main_prominence": 119.15,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 6.0,
+     "half_width_um": 59.0,
+     "edge_10_90_um_inner_outer": [
+      30.0,
+      43.0
+     ],
+     "half_lo_hi_um": [
+      -19.0,
+      40.0
+     ],
+     "level_at_w034": 0.25,
+     "level_at_w035": 0.99
+    },
+    "L3": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        10.0,
+        116.17
+       ]
+      ],
+      "maxima_between_crossings": [],
+      "main_s_um": 10.0,
+      "main_prominence": 116.17,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 10.0,
+     "half_width_um": 56.0,
+     "edge_10_90_um_inner_outer": [
+      30.0,
+      43.0
+     ],
+     "half_lo_hi_um": [
+      -17.0,
+      39.0
+     ],
+     "level_at_w034": 0.19,
+     "level_at_w035": 0.98
+    }
+   },
+   "15": {
+    "L0": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -12.0,
+        0.45
+       ],
+       [
+        4.0,
+        65.37
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -12.0,
+        0.45
+       ],
+       [
+        4.0,
+        65.37
+       ]
+      ],
+      "main_s_um": 4.0,
+      "main_prominence": 65.37,
+      "largest_other_prominence_in_W0": 0.45,
+      "largest_other_over_cut": 0.081,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 4.0,
+     "half_width_um": 86.0,
+     "edge_10_90_um_inner_outer": [
+      31.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -27.0,
+      59.0
+     ],
+     "level_at_w034": 0.51,
+     "level_at_w035": 0.99
+    },
+    "L1": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -10.0,
+        0.08
+       ],
+       [
+        5.0,
+        64.98
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -10.0,
+        0.08
+       ],
+       [
+        5.0,
+        64.98
+       ]
+      ],
+      "main_s_um": 5.0,
+      "main_prominence": 64.98,
+      "largest_other_prominence_in_W0": 0.08,
+      "largest_other_over_cut": 0.014,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 5.0,
+     "half_width_um": 85.0,
+     "edge_10_90_um_inner_outer": [
+      31.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -26.0,
+      59.0
+     ],
+     "level_at_w034": 0.48,
+     "level_at_w035": 0.99
+    },
+    "L2": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        6.0,
+        64.02
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        6.0,
+        64.02
+       ]
+      ],
+      "main_s_um": 6.0,
+      "main_prominence": 64.02,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 6.0,
+     "half_width_um": 84.0,
+     "edge_10_90_um_inner_outer": [
+      28.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -25.0,
+      59.0
+     ],
+     "level_at_w034": 0.42,
+     "level_at_w035": 1.0
+    },
+    "L3": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        11.0,
+        61.98
+       ]
+      ],
+      "maxima_between_crossings": [],
+      "main_s_um": 11.0,
+      "main_prominence": 61.98,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": 11.0,
+     "half_width_um": 82.0,
+     "edge_10_90_um_inner_outer": [
+      28.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -23.0,
+      59.0
+     ],
+     "level_at_w034": 0.32,
+     "level_at_w035": 1.0
+    }
+   },
+   "16": {
+    "L0": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -16.0,
+        112.51
+       ],
+       [
+        -8.0,
+        0.37
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -16.0,
+        112.51
+       ],
+       [
+        -8.0,
+        0.37
+       ]
+      ],
+      "main_s_um": -16.0,
+      "main_prominence": 112.51,
+      "largest_other_prominence_in_W0": 0.37,
+      "largest_other_over_cut": 0.066,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -16.0,
+     "half_width_um": 54.0,
+     "edge_10_90_um_inner_outer": [
+      20.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -30.0,
+      24.0
+     ],
+     "level_at_w034": 0.45,
+     "level_at_w035": 0.84
+    },
+    "L1": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -15.0,
+        111.43
+       ],
+       [
+        -8.0,
+        0.08
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -15.0,
+        111.43
+       ],
+       [
+        -8.0,
+        0.08
+       ]
+      ],
+      "main_s_um": -15.0,
+      "main_prominence": 111.43,
+      "largest_other_prominence_in_W0": 0.08,
+      "largest_other_over_cut": 0.015,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -15.0,
+     "half_width_um": 54.0,
+     "edge_10_90_um_inner_outer": [
+      20.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -30.0,
+      24.0
+     ],
+     "level_at_w034": 0.45,
+     "level_at_w035": 0.84
+    },
+    "L2": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -11.0,
+        108.81
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -11.0,
+        108.81
+       ]
+      ],
+      "main_s_um": -11.0,
+      "main_prominence": 108.81,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -11.0,
+     "half_width_um": 54.0,
+     "edge_10_90_um_inner_outer": [
+      21.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -29.0,
+      25.0
+     ],
+     "level_at_w034": 0.45,
+     "level_at_w035": 0.85
+    },
+    "L3": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -7.0,
+        100.14
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -7.0,
+        100.14
+       ]
+      ],
+      "main_s_um": -7.0,
+      "main_prominence": 100.14,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -7.0,
+     "half_width_um": 76.0,
+     "edge_10_90_um_inner_outer": [
+      23.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -29.0,
+      47.0
+     ],
+     "level_at_w034": 0.44,
+     "level_at_w035": 0.86
+    }
+   },
+   "17": {
+    "L0": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -23.0,
+        113.59
+       ],
+       [
+        14.0,
+        2.9
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -23.0,
+        113.59
+       ]
+      ],
+      "main_s_um": -23.0,
+      "main_prominence": 113.59,
+      "largest_other_prominence_in_W0": 2.9,
+      "largest_other_over_cut": 0.519,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -23.0,
+     "half_width_um": 46.0,
+     "edge_10_90_um_inner_outer": [
+      31.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -47.0,
+      -1.0
+     ],
+     "level_at_w034": 0.66,
+     "level_at_w035": 0.31
+    },
+    "L1": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -24.0,
+        113.61
+       ],
+       [
+        14.0,
+        2.67
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -24.0,
+        113.61
+       ]
+      ],
+      "main_s_um": -24.0,
+      "main_prominence": 113.61,
+      "largest_other_prominence_in_W0": 2.67,
+      "largest_other_over_cut": 0.501,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -24.0,
+     "half_width_um": 45.0,
+     "edge_10_90_um_inner_outer": [
+      31.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -46.0,
+      -1.0
+     ],
+     "level_at_w034": 0.64,
+     "level_at_w035": 0.32
+    },
+    "L2": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -22.0,
+        112.39
+       ],
+       [
+        14.0,
+        1.47
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -22.0,
+        112.39
+       ]
+      ],
+      "main_s_um": -22.0,
+      "main_prominence": 112.39,
+      "largest_other_prominence_in_W0": 1.47,
+      "largest_other_over_cut": 0.221,
+      "n_other_maxima_in_W0": 1,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -22.0,
+     "half_width_um": 45.0,
+     "edge_10_90_um_inner_outer": [
+      31.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -46.0,
+      -1.0
+     ],
+     "level_at_w034": 0.6,
+     "level_at_w035": 0.34
+    },
+    "L3": {
+     "dip_check": {
+      "maxima_in_W0": [
+       [
+        -20.0,
+        104.6
+       ]
+      ],
+      "maxima_between_crossings": [
+       [
+        -20.0,
+        104.6
+       ]
+      ],
+      "main_s_um": -20.0,
+      "main_prominence": 104.6,
+      "largest_other_prominence_in_W0": 0.0,
+      "largest_other_over_cut": 0.0,
+      "n_other_maxima_in_W0": 0,
+      "n_other_over_cut": 0
+     },
+     "n_ridges_in_W0": 1,
+     "crest_s_um": -20.0,
+     "half_width_um": 46.0,
+     "edge_10_90_um_inner_outer": [
+      30.0,
+      null
+     ],
+     "half_lo_hi_um": [
+      -44.0,
+      2.0
+     ],
+     "level_at_w034": 0.56,
+     "level_at_w035": 0.41
+    }
+   }
+  },
+  "median_half_width_L0_um": 59.0,
+  "n_columns_L0": 7,
+  "median_edge_10_90_L0_um": 31.0,
+  "n_flanks_L0": 10,
+  "median_half_width_L1_um": 60.0,
+  "n_columns_L1": 7,
+  "median_edge_10_90_L1_um": 30.5,
+  "n_flanks_L1": 10,
+  "median_half_width_L2_um": 59.0,
+  "n_columns_L2": 7,
+  "median_edge_10_90_L2_um": 28.0,
+  "n_flanks_L2": 9,
+  "median_half_width_L3_um": 63.0,
+  "n_columns_L3": 7,
+  "median_edge_10_90_L3_um": 28.0,
+  "n_flanks_L3": 9
+ },
+ "reproduces_finer_width_json": {
+  "11_L1": true,
+  "11_L2": true,
+  "11_L3": true,
+  "12_L1": true,
+  "12_L2": true,
+  "12_L3": true,
+  "13_L1": true,
+  "13_L2": true,
+  "13_L3": true,
+  "14_L1": true,
+  "14_L2": true,
+  "14_L3": true,
+  "15_L1": true,
+  "15_L2": true,
+  "15_L3": true,
+  "16_L1": true,
+  "16_L2": true,
+  "16_L3": true,
+  "17_L1": true,
+  "17_L2": true,
+  "17_L3": true
+ },
+ "all_level0_profiles_checked": true,
+ "timeline": {
+  "addendum_saved": "2026-11-01 04:37:02 +0800",
+  "addendum_sha256": "64e021755e8815ba489445a84702a8287a860c12ef7d7e0cb43bf4c1757086bd",
+  "first_level0_request_started": "2026-11-01 04:39:08 +0800",
+  "first_level0_ledger_line_t": "2026-11-01 04:39:12",
+  "fetch_finished": "2026-11-01 04:41:44 +0800"
+ },
+ "fetch": {
+  "estimate_file": "out/cal2_look/level0_ct_estimate.json",
+  "n_chunks": 48,
+  "estimate_total_bytes": 100663296,
+  "same_keys_as_finer_ct_estimate": true,
+  "fetched_bytes": 100663296,
+  "ledger_before": 1473529433,
+  "ledger_after": 1574192729,
+  "ledger_limit": 1633529433,
+  "step_budget": 160000000,
+  "dir": "downloads/ct_level0",
+  "tag": "ct-L0",
+  "absent": [],
+  "fetcher": "Windows Python (py -I), scripts/cal2_look_level0_fetch.py"
+ },
+ "checks": {
+  "pyramid_L1_27_49_59": {
+   "block_mean_2x2x2": {
+    "corr": 0.99998,
+    "mean_abs_diff": 0.25,
+    "max_abs_diff": 0.5,
+    "n": 2097152
+   },
+   "decimate_even": {
+    "corr": 0.9996,
+    "mean_abs_diff": 0.851,
+    "max_abs_diff": 20.0,
+    "n": 2097152
+   },
+   "decimate_odd": {
+    "corr": 0.9996,
+    "mean_abs_diff": 0.851,
+    "max_abs_diff": 20.0,
+    "n": 2097152
+   },
+   "block_mean_rolled_-1": {
+    "mean_abs_diff": 1.588
+   },
+   "block_mean_rolled_1": {
+    "mean_abs_diff": 1.592
+   }
+  },
+  "L0_texture_chunk_54_98_119": {
+   "x_diff_frac_zero": 0.413,
+   "x_diff_frac_abs_le_1": 0.869,
+   "x_diff_std": 1.087,
+   "highpass": "voxel minus 5x5x5 mean",
+   "lag_corr_x": {
+    "1": 0.757,
+    "2": 0.461,
+    "3": 0.262,
+    "4": 0.177,
+    "6": 0.13,
+    "8": 0.125
+   }
+  },
+  "subcut_dips_row0": {
+   "13_L0": {
+    "s34": -29.1,
+    "s35": -0.7,
+    "maxima_in_W0": [
+     [
+      -3.0,
+      3.23
+     ],
+     [
+      13.0,
+      114.39
+     ]
+    ],
+    "dip_min_s_um": 8.0,
+    "dip_min_value": 150.91,
+    "values_at_maxima": [
+     154.14,
+     154.75
+    ],
+    "crest_minus_p10": 124.1,
+    "dip_depth_over_crest_minus_p10": 0.026,
+    "dip_between_crossings": false
+   },
+   "13_L1": {
+    "s34": -29.1,
+    "s35": -0.7,
+    "maxima_in_W0": [
+     [
+      -2.0,
+      2.67
+     ],
+     [
+      13.0,
+      114.76
+     ]
+    ],
+    "dip_min_s_um": 8.0,
+    "dip_min_value": 152.15,
+    "values_at_maxima": [
+     154.82,
+     155.96
+    ],
+    "crest_minus_p10": 125.4,
+    "dip_depth_over_crest_minus_p10": 0.021,
+    "dip_between_crossings": false
+   },
+   "17_L0": {
+    "s34": -42.7,
+    "s35": 6.3,
+    "maxima_in_W0": [
+     [
+      -23.0,
+      113.59
+     ],
+     [
+      14.0,
+      2.9
+     ]
+    ],
+    "dip_min_s_um": 9.0,
+    "dip_min_value": 76.03,
+    "values_at_maxima": [
+     171.53,
+     78.93
+    ],
+    "crest_minus_p10": 135.8,
+    "dip_depth_over_crest_minus_p10": 0.021,
+    "dip_between_crossings": false
+   },
+   "17_L1": {
+    "s34": -42.7,
+    "s35": 6.3,
+    "maxima_in_W0": [
+     [
+      -24.0,
+      113.61
+     ],
+     [
+      14.0,
+      2.67
+     ]
+    ],
+    "dip_min_s_um": 9.0,
+    "dip_min_value": 76.42,
+    "values_at_maxima": [
+     171.61,
+     79.08
+    ],
+    "crest_minus_p10": 135.8,
+    "dip_depth_over_crest_minus_p10": 0.02,
+    "dip_between_crossings": false
+   }
+  },
+  "deepest_dip_between_crossings_row0": {
+   "11": {
+    "s34": -26.8,
+    "s35": 2.6,
+    "L0": {
+     "depth": 0.0,
+     "at_s_um": -26.0,
+     "over_cut": 0.0
+    },
+    "L1": {
+     "depth": 0.05,
+     "at_s_um": -16.0,
+     "over_cut": 0.009
+    },
+    "L2": {
+     "depth": 0.0,
+     "at_s_um": -26.0,
+     "over_cut": 0.0
+    },
+    "L3": {
+     "depth": 0.0,
+     "at_s_um": -26.0,
+     "over_cut": 0.0
+    }
+   },
+   "12": {
+    "s34": -29.1,
+    "s35": 0.0,
+    "L0": {
+     "depth": 0.0,
+     "at_s_um": -29.0,
+     "over_cut": 0.0
+    },
+    "L1": {
+     "depth": 0.0,
+     "at_s_um": -29.0,
+     "over_cut": 0.0
+    },
+    "L2": {
+     "depth": 0.11,
+     "at_s_um": -9.0,
+     "over_cut": 0.016
+    },
+    "L3": {
+     "depth": 0.0,
+     "at_s_um": -29.0,
+     "over_cut": 0.0
+    }
+   },
+   "13": {
+    "s34": -29.1,
+    "s35": -0.7,
+    "L0": {
+     "depth": 0.0,
+     "at_s_um": -29.0,
+     "over_cut": 0.0
+    },
+    "L1": {
+     "depth": 0.0,
+     "at_s_um": -29.0,
+     "over_cut": 0.0
+    },
+    "L2": {
+     "depth": 0.0,
+     "at_s_um": -29.0,
+     "over_cut": 0.0
+    },
+    "L3": {
+     "depth": 0.0,
+     "at_s_um": -29.0,
+     "over_cut": 0.0
+    }
+   },
+   "14": {
+    "s34": -28.2,
+    "s35": 4.0,
+    "L0": {
+     "depth": 0.0,
+     "at_s_um": -28.0,
+     "over_cut": 0.0
+    },
+    "L1": {
+     "depth": 0.0,
+     "at_s_um": -28.0,
+     "over_cut": 0.0
+    },
+    "L2": {
+     "depth": 0.0,
+     "at_s_um": -28.0,
+     "over_cut": 0.0
+    },
+    "L3": {
+     "depth": 0.0,
+     "at_s_um": -28.0,
+     "over_cut": 0.0
+    }
+   },
+   "15": {
+    "s34": -27.4,
+    "s35": 7.4,
+    "L0": {
+     "depth": 0.45,
+     "at_s_um": -9.0,
+     "over_cut": 0.081
+    },
+    "L1": {
+     "depth": 0.08,
+     "at_s_um": -9.0,
+     "over_cut": 0.014
+    },
+    "L2": {
+     "depth": 0.0,
+     "at_s_um": -27.0,
+     "over_cut": 0.0
+    },
+    "L3": {
+     "depth": 0.0,
+     "at_s_um": -27.0,
+     "over_cut": 0.0
+    }
+   },
+   "16": {
+    "s34": -31.4,
+    "s35": 7.6,
+    "L0": {
+     "depth": 0.37,
+     "at_s_um": -10.0,
+     "over_cut": 0.066
+    },
+    "L1": {
+     "depth": 0.08,
+     "at_s_um": -10.0,
+     "over_cut": 0.015
+    },
+    "L2": {
+     "depth": 0.0,
+     "at_s_um": -31.0,
+     "over_cut": 0.0
+    },
+    "L3": {
+     "depth": 0.0,
+     "at_s_um": -31.0,
+     "over_cut": 0.0
+    }
+   },
+   "17": {
+    "s34": -42.7,
+    "s35": 6.3,
+    "L0": {
+     "depth": 0.0,
+     "at_s_um": -42.0,
+     "over_cut": 0.0
+    },
+    "L1": {
+     "depth": 0.0,
+     "at_s_um": -42.0,
+     "over_cut": 0.0
+    },
+    "L2": {
+     "depth": 0.0,
+     "at_s_um": -42.0,
+     "over_cut": 0.0
+    },
+    "L3": {
+     "depth": 0.0,
+     "at_s_um": -42.0,
+     "over_cut": 0.0
+    }
+   }
+  },
+  "what": "outside FINER-RULE.md; from scripts/cal2_look_level0_checks.py (also in out/cal2_look/level0_checks.json)"
+ }
+}

@@ -151,7 +151,7 @@ Figures: [X542](png/verify/X542_verify.png), [X542 at ±0.5°](png/verify/X542_v
 
 ## 3D follow-up
 
-Wittmoon asked in #2167 whether the entering sheet and the two plies at X542 can be followed in 3D ([comment](https://github.com/ScrollPrize/villa/issues/2167#issuecomment-6537933181)). [`3d-pilot/`](3d-pilot/README.md) is a pilot with villa's sheet tracer, run at the 240° control and at four places outside the gap to test whether its trace follows the CT. It stopped before the gap. At one calibration place the trace drifted from w035 onto the ridge that carries w034; the two meshes are 27 to 43 µm apart at its seed, and the CT there shows a single ridge at levels 3, 2 and 1. In the gap the pitch is about 63 µm and the bands at E1, E5 and E6 are already pressed together, so a trace there meets the same question with nothing in the CT to settle it.
+Wittmoon asked in #2167 whether the entering sheet and the two plies at X542 can be followed in 3D ([comment](https://github.com/ScrollPrize/villa/issues/2167#issuecomment-6537933181)). [`3d-pilot/`](3d-pilot/README.md) is a pilot with villa's sheet tracer, run at the 240° control and at four places outside the gap to test whether its trace follows the CT. It stopped before the gap. At one calibration place the trace drifted from w035 onto the ridge that carries w034; the two meshes are 27 to 43 µm apart at its seed, and the CT there shows a single ridge at levels 3, 2, 1 and 0. In the gap the pitch is about 63 µm and the bands at E1, E5 and E6 are already pressed together, so a trace there meets the same question with nothing in the CT to settle it.
 
 ## Data sources
 

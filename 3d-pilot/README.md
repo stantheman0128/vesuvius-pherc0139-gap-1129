@@ -2,7 +2,7 @@
 
 This folder follows up on [ScrollPrize/villa#2167](https://github.com/ScrollPrize/villa/issues/2167). The main README of this repository reads the w034/w036 gap in the 1.129 µm scan one radial cut at a time. It cannot say which winding each band is. The thread proposed following the layers into the gap in 3D, from where they are still separate. This folder tests whether villa's sheet tracer can do that on this scan, before using it inside the gap.
 
-Our answer is that it probably cannot, at the pitch the gap has. Where the published meshes are wider apart the tracer follows the CT well. Where two sheets come closer than about one sheet's width, the CT shows a single ridge, even at levels 2 and 1 (2x and 4x finer than the level the tracer reads). A trace that starts on such a ridge has to choose a sheet when the two part, and the CT gives it nothing to choose by. In the gap the pitch is about 63 µm and several places already show w034 and w036 in one dense band. So we did not run the tracer at any gap place, and we did not run the 12 controls that were planned for that run.
+Our answer is that it probably cannot, at the pitch the gap has. Where the published meshes are wider apart the tracer follows the CT well. Where two sheets come closer than about one sheet's width, the CT shows a single ridge, even at levels 2, 1 and 0 (2x, 4x and 8x finer than the level the tracer reads; level 0 is the scan's full 1.129 µm). A trace that starts on such a ridge has to choose a sheet when the two part, and the CT gives it nothing to choose by. In the gap the pitch is about 63 µm and several places already show w034 and w036 in one dense band. So we did not run the tracer at any gap place, and we did not run the 12 controls that were planned for that run.
 
 No gap place was opened, downloaded or traced. Every CT chunk used here has all 8 corners at least 30° outside the gap sector (327° to 85°).
 
@@ -36,7 +36,7 @@ The places:
 
 cal1 sits just below C240 and shares 8 CT chunks with it, so it is not independent of the tuning place.
 
-cal2 failed the check, so we read its CT along the w035 normal at every trace point (`cal2_look*.py`). Then, with a rule fixed and hashed before any finer voxel was read (`FINER-RULE.md`), we read levels 1 and 2 at the seed (2.258 µm and 4.516 µm voxels, 14 chunks).
+cal2 failed the check, so we read its CT along the w035 normal at every trace point (`cal2_look*.py`). Then, with a rule fixed and hashed before any finer voxel was read (`FINER-RULE.md`), we read levels 1 and 2 at the seed (2.258 µm and 4.516 µm voxels, 14 chunks). Later, with an addendum fixed and hashed before any level-0 voxel was read (`LEVEL0-ADDENDUM.md`), we read level 0 there as well (1.129 µm voxels, 48 chunks).
 
 villa's copy model (`infer_rowcol_triplet_wraps.py`, checkpoint `scrollprize/copy_displacement_latest`) was also run at C240 with the same kind of CT check. It is not part of the pilot, for the reason given under Results.
 
@@ -97,13 +97,16 @@ The rule (`FINER-RULE.md`, sha256 `c7d471962f91e3f6e36e42a18ba1bf3efe3760f874ba5
 
 | Level | Voxel (µm) | Two sheets | One sheet | Other | Call |
 | --- | ---: | ---: | ---: | ---: | --- |
+| 0 (read later) | 1.129 | 0 | 4 | 3 | undecided |
 | 1 (decides) | 2.258 | 0 | 4 | 3 | undecided |
 | 2 | 4.516 | 0 | 5 | 2 | one sheet |
 | 3 | 9.03 | 0 | 5 | 2 | one sheet |
 
-No column shows two ridges at any level. The 3 "other" columns at level 1 have their single ridge on w034's side of the midpoint, not two ridges.
+No column shows two ridges at any level. The 3 "other" columns at levels 0 and 1 have their single ridge on w034's side of the midpoint, not two ridges.
 
-The finer levels add no detail along the normal here. The seed ridge's half-height width has a median of 60 µm at level 1, 59 µm at level 2 and 63 µm at level 3. Its flanks rise from 10% to 90% over a median of 30.5, 28 and 28 µm. Two sheets pressed together with no dip between them would look like this at all three levels, so finding no second ridge leans toward reading B only weakly.
+The finer levels add no detail along the normal here. The seed ridge's half-height width has a median of 59 µm at level 0, 60 µm at level 1, 59 µm at level 2 and 63 µm at level 3. Its flanks rise from 10% to 90% over a median of 31, 30.5, 28 and 28 µm. Two sheets pressed together with no dip between them would look like this at all four levels, so finding no second ridge leans toward reading B only weakly.
+
+Level 1 is the 2x2x2 mean of level 0 (largest difference 0.5 grey levels), so level 0 is the finest data this scan has. On the normal through each seed column, between the points where w034 and w035 cross it, the deepest dip at level 0 is 0.45 grey levels, under a tenth of the rule's cut, while the crest stands 106 to 136 grey levels above the profile's 10th percentile. Fine texture at level 0 loses its correlation within 2 to 3 voxels, so the scan does show detail of a few µm, and a gap of more than a few µm between two sheets would likely have shown as a dip. That last point is an inference, not a measurement. `LEVEL0-LOOK.md` has the numbers per column.
 
 ## What this means for the gap
 
@@ -117,8 +120,8 @@ So a trace into the gap, on this scan with this tool, would not settle the windi
 
 - Four calibration places and one tuning place. cal1 is not independent of C240.
 - One shift size (9 µm) and one shift axis per place. Shifts between 9 and 27 µm were not tried.
-- Level 0 (1.129 µm) was not read at the cal2 seed, because of our download cap. Levels 1 to 3 give the same ridge width, so level 0 may not be sharper either. That is an inference, not a measurement.
-- Possible half-voxel offset between CT levels and the level-0 meshes, not corrected. Level-1 crests sit 0 to 8 µm inward of level-3 crests (median 6).
+- Level 0 (1.129 µm) was read at the cal2 seed only.
+- Possible half-voxel offset between CT levels and the level-0 meshes, not corrected. Level-1 crests sit 0 to 8 µm inward of level-3 crests (median 6), and level-0 crests agree with level-1 crests to within 1 µm.
 - The w034 and w036 mesh rows were fetched every 3rd row and interpolated in between.
 - Both villa checkpoints list PHerc0139 in their training data, so agreement with the published meshes can be partly recall.
 - The ridge followers in `cal2_look_ridge.py` and `cal2_look_split.py` are a heuristic, one level-3 voxel per step. They can hop where ridges touch.
@@ -133,18 +136,18 @@ Everything ran in a WSL Ubuntu venv with Python 3.14.6 and torch 2.12.1+cpu. The
 2. Fetch the checkpoint with `scripts/fetch_file.py` (the whole `last.pt`, checked against its sha256). All fetches go through `scripts/netlog.py`, which logs every byte and stops at a cap.
 3. C240: `fetch_meta.py`, `locate.py`, `make_inputs.py`, `plan_ct.py`, `fetch_ct.py`, `prep_sheet.py`, then `run_sheet7.sh` (which calls `run_sheet.py` and `trace_to_npz.py`) and `analyze_sheet.py`. The CT shift runs: `ablate_build.py`, `ablate_build_small.py`, `run_ablate_sheet.sh`, `ablate_compare.py`.
 4. Calibration places: `pick_places.py` (mesh rows only, no CT), `edge_scan.py`, `calib_prep.py` (CT fetch, shifted views, seeds), `run_calib.sh` (which calls `run_sheet_calib.py`), then `calib_compare.py`.
-5. cal2: `cal2_look.py`, `cal2_look_png.py`, `cal2_look_ridge.py`, `cal2_look_split.py`. Finer levels: `cal2_look_finer_estimate.py` (HTTP HEAD only), `cal2_look_finer_fetch.py`, `cal2_look_finer.py`, `cal2_look_finer_width.py`.
+5. cal2: `cal2_look.py`, `cal2_look_png.py`, `cal2_look_ridge.py`, `cal2_look_split.py`. Finer levels: `cal2_look_finer_estimate.py` (HTTP HEAD only), `cal2_look_finer_fetch.py`, `cal2_look_finer.py`, `cal2_look_finer_width.py`. Level 0: `cal2_look_level0_estimate.py` (HTTP HEAD only), `cal2_look_level0_fetch.py`, `cal2_look_level0.py`, `cal2_look_level0_checks.py`.
 6. Copy model (optional): `hf_zip_index.py`, `pkl_audit.py`, `hf_zip_member.py` and `build_ckpt.py` fetch only the model weights, without the optimizer state. `run_copy.py`, `analyze_copy.py`, `run_ablate.sh`, `run_ablate2.sh`, `ablate_fig.py`. The copy model imports volume-cartographer's compiled `vc` bindings; `scripts/shim/vc` replaces the calls it makes with numpy over a local zarr. It peaks at 16.8 GiB of RAM at batch 1.
 
-The CT, checkpoints and mesh rows are not in this folder. A full rerun downloads about 1.47 GB, nearly all of it the two checkpoints and the CT chunks, from the public Vesuvius Challenge bucket and Hugging Face.
+The CT, checkpoints and mesh rows are not in this folder. A full rerun downloads about 1.57 GB, nearly all of it the two checkpoints and the CT chunks, from the public Vesuvius Challenge bucket and Hugging Face.
 
 ## Files
 
 - `scripts/`: every script named above, plus `meshgeom.py`, `tif_rows.py`, `check_shim.py`, `sheet_cfg.py`, `rules_numbers.py`, `ray_check.py` and the `shim/` package.
 - `out/calib/compare.json`: all calibration results (steps, per-step control points by nearest mesh, distances, shift displacements and ratios). `plans.json` and `views.json` hold the CT plans and the read-back checks of the shifted views. Per run: `trace_*_record.json` and `trace_*_reads.json`.
 - `out/places/`: `places.json` (controls, candidates, picks and the rule), `edge_scan.json`, `control_share_below_21.json`.
-- `out/cal2_look/`: `CAL2-LOOK.md`, `FINER-RULE.md`, `FINER-LOOK.md` and their json files. `png/` holds ribbons along the trace front at steps 2, 5 and 8 and the column 15 sections at level 3 and level 1.
+- `out/cal2_look/`: `CAL2-LOOK.md`, `FINER-RULE.md`, `FINER-LOOK.md`, `LEVEL0-ADDENDUM.md`, `LEVEL0-LOOK.md` and their json files. `png/` holds ribbons along the trace front at steps 2, 5 and 8 and the column 15 sections at levels 3, 1 and 0.
 - `out/ablate/`: the C240 shift checks (`compare.json`, `build*.json`, `trace_*_record.json`) and `out/abl_*_metrics.json`.
 - `out/sheet7_s8_t03_*`, `out/sheet7_s8_t05_*`, `out/rules_numbers.json`, `out/locate.json`, `out/ray_check.json`: C240 runs and checks.
 - `out/png/sheet7_s8_t03_slice.png` (the C240 trace on the CT) and `out/png/abl_copy_panels.png` (the CT each copy-model run saw, with its outputs).
-- `logs/finer_rule_sha256.json`: the save time and hash of `FINER-RULE.md`.
+- `logs/finer_rule_sha256.json` and `logs/level0_addendum_sha256.json`: the save time and hash of `FINER-RULE.md` and of `LEVEL0-ADDENDUM.md`. `logs/level0_fetch_record.json` records the level-0 fetch.
