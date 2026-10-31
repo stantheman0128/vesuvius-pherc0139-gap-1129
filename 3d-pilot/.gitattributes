@@ -1,0 +1,2 @@
+# keep the hashed rule byte for byte on every checkout
+out/cal2_look/FINER-RULE.md -text

@@ -149,6 +149,10 @@ Figures: [X542](png/verify/X542_verify.png), [X542 at ±0.5°](png/verify/X542_v
 - At G2 and X434 the ray crosses the sheets at a slant, so counts along it mix in sheets that bend across it.
 - In the unwraps, which crossing counts as the "end" follows the outer-crossing convention, which does not always match the piece that stops.
 
+## 3D follow-up
+
+Wittmoon asked in #2167 whether the entering sheet and the two plies at X542 can be followed in 3D ([comment](https://github.com/ScrollPrize/villa/issues/2167#issuecomment-6537933181)). [`3d-pilot/`](3d-pilot/README.md) is a pilot with villa's sheet tracer, run at the 240° control and at four places outside the gap to test whether its trace follows the CT. It stopped before the gap. At one calibration place the trace drifted from w035 onto the ridge that carries w034; the two meshes are 27 to 43 µm apart at its seed, and the CT there shows a single ridge at levels 3, 2 and 1. In the gap the pitch is about 63 µm and the bands at E1, E5 and E6 are already pressed together, so a trace there meets the same question with nothing in the CT to settle it.
+
 ## Data sources
 
 All CT and mesh files are public, from the bucket `s3://vesuvius-challenge-open-data` (HTTPS: `https://vesuvius-challenge-open-data.s3.amazonaws.com/<key>`). No credentials are needed.
@@ -241,6 +245,7 @@ On top of the CT, each place fetches 4.7 to 6.0 MB of mesh rows, and `fetch_inpu
 
 ```
 coverage/   coverage of the gap sector by the scan (cov2167*.py)
+3d-pilot/   the 3D pilot with villa's sheet tracer (its own README)
 pilot/      E2 and the 240° control (pcommon.py, p1 to p7b)
 places/     the other places and the unwraps (fcommon.py, f1 to f5)
 results/    per-height tables (*_layers.json), logs, geo.json, plan.json, coverage output
